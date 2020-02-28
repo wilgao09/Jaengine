@@ -1,11 +1,14 @@
 package jaengine.modules.physics;
 
 import jaengine.modules.messages.*;
+import jaengine.math.*;
 import java.util.ArrayList;
 
 public class Physics implements Messageable{
     private MessageHub hub;
     private ArrayList<Message> messages = new ArrayList<Message>();
+
+    private Environment objectTree = new Environment();
     public Physics(MessageHub m) {
         hub = m;
         hub.addMember(this);
@@ -35,6 +38,10 @@ public class Physics implements Messageable{
 
     }
 
+    public void addToEnvironment(GameObject o) {
+        o.initialize(objectTree);
+        objectTree.getChildren().add(o);
+    }
     // public static ArrayList<GameObject> visible = new ArrayList<GameObject>();
     // public static ArrayList<GameObject.Hitbox> collidable = new ArrayList<GameObject.Hitbox>(); 
     // public static ArrayList<GameObject.RigidBody> moveable = new ArrayList<GameObject.RigidBody>();
