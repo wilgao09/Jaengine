@@ -12,6 +12,7 @@ public class Physics implements Messageable{
     public Physics(MessageHub m) {
         hub = m;
         hub.addMember(this);
+        pushMessage(hub, new Message(300, new Object[]{objectTree})); //initial send; TODO: MAKE UPPER MANAGEMENT CAPTURE THIS SIGNAL
     }
 
     //required by interface
@@ -23,10 +24,17 @@ public class Physics implements Messageable{
     }
     public void run() {
         while (!MessageHub.endProgram) {
-            if (this.messages.size() > 0) {
+            
+            while (this.messages.size() > 0) {
                 readNextMessage();
             }
             try {
+                new Thread() {
+                    @Override
+                    public void run() {
+                        Physics.this.runPhysicsTick();
+                    }
+                }.start();
                 Thread.sleep(50);
             } catch (InterruptedException e) {
                 System.out.println("FATAL ERROR");
@@ -45,6 +53,13 @@ public class Physics implements Messageable{
     // public static ArrayList<GameObject> visible = new ArrayList<GameObject>();
     // public static ArrayList<GameObject.Hitbox> collidable = new ArrayList<GameObject.Hitbox>(); 
     // public static ArrayList<GameObject.RigidBody> moveable = new ArrayList<GameObject.RigidBody>();
+    public void runPhysicsTick() {
+        //resolve forces, combine to preexisting velocity
+        //resolve new location
+        //
+        //correct collisions (this is quite the daunting physics problem)
 
+        //send draw signal TODO determine code for this
+    }
 }
 

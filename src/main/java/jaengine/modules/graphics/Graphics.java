@@ -103,7 +103,7 @@ public class Graphics extends Application implements Messageable{
             protected Integer call() {
                 while (!MessageHub.endProgram) {
                     //jesus fking christ
-                    if (messages.size() > 0) {
+                    while (messages.size() > 0) {
                         Platform.runLater(new Thread( () -> {readNextMessage();}));
                     } 
                     try {

@@ -28,4 +28,8 @@ public class Node<T> implements DataHolder<Node<T>, T>{
     public void setParent(Node<T> paren) {
         this.parent = paren;
     }
+
+    public String toString() {
+
+    }
 }

@@ -29,7 +29,7 @@ public class Input implements Messageable {
     }
     public void run() {
         while (!MessageHub.endProgram) {
-            if (this.messages.size() > 0) {
+            while (this.messages.size() > 0) {
                 readNextMessage();
             }
             try {

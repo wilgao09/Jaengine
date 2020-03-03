@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class GameObject extends Node<GameObject>{
     protected Vector2D geometricCenter;
     protected Environment environment;
+    protected String name;
     protected ArrayList<GameAttribute> attributes = new ArrayList<GameAttribute>();
 
     public GameObject(Vector2D location) {
@@ -38,5 +39,9 @@ public class GameObject extends Node<GameObject>{
         if (this.environment != null) {
             g.initialize(this.environment);
         }
+    }
+
+    public String stringValue() {
+        return this.name;
     }
 }
