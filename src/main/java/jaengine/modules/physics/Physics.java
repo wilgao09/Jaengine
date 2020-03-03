@@ -60,6 +60,7 @@ public class Physics implements Messageable{
         //correct collisions (this is quite the daunting physics problem)
 
         //send draw signal TODO determine code for this
+        pushMessage(hub, new Message(100, new Object[0]));
     }
 }
 
