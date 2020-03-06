@@ -29,7 +29,7 @@ public class Node<T> implements DataHolder<Node<T>, T>{
         this.parent = paren;
     }
 
-    public String toString() {
+    // public String toString() {
 
-    }
+    // }
 }

@@ -12,7 +12,7 @@ public class Physics implements Messageable{
     public Physics(MessageHub m) {
         hub = m;
         hub.addMember(this);
-        pushMessage(hub, new Message(300, new Object[]{objectTree})); //initial send; TODO: MAKE UPPER MANAGEMENT CAPTURE THIS SIGNAL
+        (new Thread(this,"PHYSICS")).start();
     }
 
     //required by interface
@@ -23,18 +23,16 @@ public class Physics implements Messageable{
         return messages.remove(0);
     }
     public void run() {
+        pushMessage(hub, new Message(300, new Object[]{objectTree})); //initial send; TODO: MAKE UPPER MANAGEMENT CAPTURE THIS SIGNAL
         while (!MessageHub.endProgram) {
             
             while (this.messages.size() > 0) {
                 readNextMessage();
             }
             try {
-                new Thread() {
-                    @Override
-                    public void run() {
-                        Physics.this.runPhysicsTick();
-                    }
-                }.start();
+
+                Physics.this.runPhysicsTick();
+
                 Thread.sleep(50);
             } catch (InterruptedException e) {
                 System.out.println("FATAL ERROR");

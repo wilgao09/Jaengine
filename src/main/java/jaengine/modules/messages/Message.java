@@ -5,16 +5,16 @@ import java.text.DateFormat;
 
 public class Message {
     final public long timeReceived;
-    final public short code;
+    final public int code;
     final public Object[] data;
-    public Message(short type, Object[] paramDat) {
-        timeReceived = System.currentTimeMillis();
-        code = type;
-        data = paramDat;
-    }
+    // public Message(short type, Object[] paramDat) {
+    //     timeReceived = System.currentTimeMillis();
+    //     code = type;
+    //     data = paramDat;
+    // }
     public Message(int type, Object[] paramDat) {
         timeReceived = System.currentTimeMillis();
-        code = (short) type;
+        code = type;
         data = paramDat;
     }
     public String toString() {

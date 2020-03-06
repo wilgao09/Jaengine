@@ -11,7 +11,7 @@ public class GameObject extends Node<GameObject>{
     protected String name;
     protected ArrayList<GameAttribute> attributes = new ArrayList<GameAttribute>();
 
-    public GameObject(Vector2D location) {
+    public GameObject(String name, Vector2D location) {
         this.geometricCenter = location;
     }
 
@@ -43,5 +43,13 @@ public class GameObject extends Node<GameObject>{
 
     public String stringValue() {
         return this.name;
+    }
+
+    public String toString() {
+        String toR = this.name ;
+        for (int n = 0; n < super.children.size(); n++) {   
+            toR += "\n \\_" + super.children.get(n).toString();
+        }
+        return toR;
     }
 }

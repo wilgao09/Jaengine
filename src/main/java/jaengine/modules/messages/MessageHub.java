@@ -1,6 +1,8 @@
 package jaengine.modules.messages;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import jaengine.math.FunctionWrapper;
 
 public class MessageHub implements Runnable{
     private ArrayList<Messageable> callingList = new ArrayList<Messageable>();
@@ -8,6 +10,7 @@ public class MessageHub implements Runnable{
 
     public static boolean endProgram = false;
 
+    private HashMap<Integer,FunctionWrapper> listens = new HashMap<Integer, FunctionWrapper>();
     public MessageHub(){
         Debug.init(); //i dont trust it to target my debug, prob shouldve renamed it
         (new Thread(this,"MHUB")).start();
@@ -22,6 +25,10 @@ public class MessageHub implements Runnable{
     public void mail() {
         Message msg = messageStack.remove(0);
         Debug.log( "Processing message: " + msg);
+        // if (listens.containsKey(msg.code)) {
+        //     listens.get(msg.code).f();
+
+        // }
         for (Messageable m : callingList) {
             m.addMessage(msg);
             Debug.log("Mailing " + msg + " to " + m);
@@ -36,7 +43,7 @@ public class MessageHub implements Runnable{
             try {
                 Thread.sleep(50);
             } catch (InterruptedException e) {
-                break;
+                System.out.println("FATAL ERROR! MESSAGE HUB SHUTDOWN");
             }
         }
         Debug.close();
@@ -48,4 +55,19 @@ public class MessageHub implements Runnable{
 //    public Scene getScene() {
 //        return currentScene;
 //    }
+
+    //THESE ARE FOR HIGHER USES
+    public void attachListener(int code, FunctionWrapper wrapper) {
+        if (listens.containsKey(code)) {
+            listens.put(code, new FunctionWrapper(){  
+                @Override
+                public void f() {
+                    listens.get(code);
+                    wrapper.f();
+                }
+            });
+        } else {
+            listens.put(code, wrapper);
+        }
+    }
 }
