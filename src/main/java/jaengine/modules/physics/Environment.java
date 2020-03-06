@@ -8,6 +8,9 @@ public class Environment extends GameObject{
         super("Environment",new Vector2D(0,0));
         environment = this;
     }
-
+    public void addObject(GameObject g) {
+        super.getChildren().add(g);
+        g.initialize(this);
+    }
 
 }
