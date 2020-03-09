@@ -2,10 +2,10 @@ package jaengine.math;
 
 import java.util.ArrayList;
 
-public class Node<T> implements DataHolder<Node<T>, T>{
+public class Node<T> {
     protected T data;
     protected Node<T> parent;
-    protected ArrayList<Node<T>> children; //THIS IS RAWW
+    protected ArrayList<Node<T>> children;
     public Node(){};
     public Node(T dat) {
         this.data = dat;

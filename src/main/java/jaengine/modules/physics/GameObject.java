@@ -13,6 +13,7 @@ public class GameObject extends Node<GameObject>{
 
     public GameObject(String name, Vector2D location) {
         this.geometricCenter = location;
+        super.setData(this);
     }
 
     public ArrayList<GameAttribute> attributes() {
@@ -22,7 +23,7 @@ public class GameObject extends Node<GameObject>{
         if (environment == null) {
             environment = e;
             for (Node<GameObject> g : super.children) {
-                ((GameObject)g).initialize(e);
+                (g.getData()).initialize(e);
             }
             //add attributes here
             return true;
@@ -52,4 +53,9 @@ public class GameObject extends Node<GameObject>{
         }
         return toR;
     }
+
+    public String getName() {
+        return this.name;
+    }
+
 }

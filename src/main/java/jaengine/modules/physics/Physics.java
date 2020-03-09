@@ -23,7 +23,7 @@ public class Physics implements Messageable{
         return messages.remove(0);
     }
     public void run() {
-        pushMessage(hub, new Message(300, new Object[]{objectTree})); //initial send; TODO: MAKE UPPER MANAGEMENT CAPTURE THIS SIGNAL
+        // pushMessage(hub, new Message(300, new Object[]{objectTree})); //initial send;
         while (!MessageHub.endProgram) {
             
             while (this.messages.size() > 0) {
@@ -44,9 +44,19 @@ public class Physics implements Messageable{
 
     }
 
-    public void addToEnvironment(GameObject o) {
+    public boolean addToEnvironment(GameObject o) {
+        //determine if there are duplicate names; if there are, do nothing
+        for (Node<GameObject> n : objectTree.getChildren()) {
+            if (n.getData().name.equals(o.getName())) {
+                return false;
+            }
+        }
         o.initialize(objectTree);
         objectTree.getChildren().add(o);
+        return true;
+        //all of o's meshes need to go to graphics
+
+
     }
     // public static ArrayList<GameObject> visible = new ArrayList<GameObject>();
     // public static ArrayList<GameObject.Hitbox> collidable = new ArrayList<GameObject.Hitbox>(); 

@@ -2,7 +2,7 @@ package jaengine.math;
 
 import java.util.ArrayList;
 
-public interface DataHolder<N extends DataHolder<N,T>, T> {
+public interface DataHolder<N extends DataHolder, T> {
     public T getData();
     public ArrayList<N> getChildren();
     public N getParent();
