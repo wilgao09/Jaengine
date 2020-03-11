@@ -11,8 +11,8 @@ public class App
 
         // gEngine.addToEnvironment(b);
 
-        Node<Double> dNode = new Node<Double>(12.0);
-        Node<String> sNode = new Node<String>("STRING");
-        dNode.getChildren().add(sNode);
+        // Node<Double> dNode = new Node<Double>(12.0);
+        // Node<String> sNode = new Node<String>("STRING");
+        // dNode.getChildren().add(sNode);
     }
 }

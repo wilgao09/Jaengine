@@ -62,12 +62,16 @@ public class Physics implements Messageable{
     // public static ArrayList<GameObject.Hitbox> collidable = new ArrayList<GameObject.Hitbox>(); 
     // public static ArrayList<GameObject.RigidBody> moveable = new ArrayList<GameObject.RigidBody>();
     public void runPhysicsTick() {
+        ArrayList<GameObject> needToBeRedrawn = new ArrayList<GameObject>();
         //resolve forces, combine to preexisting velocity
         //resolve new location
         //
         //correct collisions (this is quite the daunting physics problem)
 
-        //send draw signal TODO determine code for this
+        //send draw signal  RESOLVED code 501
+        for (GameObject g : needToBeRedrawn) {
+            pushMessage(hub, new Message(501, new Object[]{}));
+        }
     }
 }
 
