@@ -63,6 +63,7 @@ public class Physics implements Messageable{
     // public static ArrayList<GameObject.RigidBody> moveable = new ArrayList<GameObject.RigidBody>();
     public void runPhysicsTick() {
         ArrayList<GameObject> needToBeRedrawn = new ArrayList<GameObject>();
+        ArrayList<
         //resolve forces, combine to preexisting velocity
         //resolve new location
         //
@@ -70,7 +71,7 @@ public class Physics implements Messageable{
 
         //send draw signal  RESOLVED code 501
         for (GameObject g : needToBeRedrawn) {
-            pushMessage(hub, new Message(501, new Object[]{}));
+            pushMessage(hub, new Message(501, new Object[]{g.getAttribute("mesh")}));
         }
     }
 }

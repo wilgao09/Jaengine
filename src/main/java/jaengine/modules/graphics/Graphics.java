@@ -1,8 +1,10 @@
 package jaengine.modules.graphics;
 
 import jaengine.modules.messages.*;
+import jaengine.math.Vector2D;
 
 import java.util.ArrayList;
+
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.scene.Scene;
@@ -24,6 +26,8 @@ public class Graphics extends Application implements Messageable{
     private static MessageHub lastHub;
     private MessageHub hub;
     private ArrayList<Message> messages = new ArrayList<Message>();
+
+    private jaengine.modules.graphics.Map objectMap = new jaengine.modules.graphics.Map();
 
     public Graphics(){ hub = Graphics.lastHub; hub.addMember(this); };//not for human use
     public static void startGraphics(MessageHub m) {
@@ -83,6 +87,8 @@ public class Graphics extends Application implements Messageable{
                 // Object someScene = Screen.setNewScene((double)m.data[0],(double)m.data[1]);
                 // pushMessage(hub,new Message(101, new Object[]{someScene}));
                 // break;
+            case (501):
+                objectMap.apply(m.data[0],(Vector2D)m.data[1],(Vector2D)m.data[2]);
         }
     }
 

@@ -73,4 +73,8 @@ public class GameObject extends Node<GameObject>{
         }
         return null;
     }
+
+    public int hashCode() {
+        return this.name.hashCode() + this.geometricCenter.hashCode();
+    }
 }
