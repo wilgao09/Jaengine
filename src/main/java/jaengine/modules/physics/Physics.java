@@ -1,17 +1,21 @@
 package jaengine.modules.physics;
 
 import jaengine.modules.messages.*;
-import jaengine.math.*;
+import jaengine.logic.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Physics implements Messageable{
     private MessageHub hub;
     private ArrayList<Message> messages = new ArrayList<Message>();
 
-    private Environment objectTree = new Environment();
+    private Environment objectTree;
+
+    private double timeScale = 1; //ratio of simulation time to real time
     public Physics(MessageHub m) {
         hub = m;
         hub.addMember(this);
+        objectTree = new Environment();
         (new Thread(this,"PHYSICS")).start();
     }
 
@@ -41,7 +45,10 @@ public class Physics implements Messageable{
         }
     }
     public void readMessage(Message m) {
-
+        switch(m.code) {
+            case(1501):
+                addToEnvironment((GameObject)(m.data[0]));
+        }
     }
 
     public boolean addToEnvironment(GameObject o) {
@@ -54,25 +61,88 @@ public class Physics implements Messageable{
         o.initialize(objectTree);
         objectTree.getChildren().add(o);
         return true;
-        //all of o's meshes need to go to graphics
-
-
     }
+
+
+    
     // public static ArrayList<GameObject> visible = new ArrayList<GameObject>();
     // public static ArrayList<GameObject.Hitbox> collidable = new ArrayList<GameObject.Hitbox>(); 
     // public static ArrayList<GameObject.RigidBody> moveable = new ArrayList<GameObject.RigidBody>();
     public void runPhysicsTick() {
-        ArrayList<GameObject> needToBeRedrawn = new ArrayList<GameObject>();
-        ArrayList<
+        // ArrayList<GameObject> needToBeRedrawn = new ArrayList<GameObject>();
+        // ArrayList<Vector2D> translations = new ArrayList<Vector2D>();
+        // ArrayList<Double> rotations = new ArrayList<Double>();
+
+        HashMap<Node<GameObject>, Object[]> updates = new HashMap<Node<GameObject>, Object[]>();
         //resolve forces, combine to preexisting velocity
         //resolve new location
-        //
+
+        Recursor<OneArgFuncWrapper> tick = new Recursor<OneArgFuncWrapper>();
+        tick.func = (Object o) -> { //this is suuper convoluted here. it's a class holding a functional interface, then writing the function for that interface.
+            GameObject focus;
+            try {
+                focus = ((Node<GameObject>)o).getData();
+            } catch (ClassCastException e) {
+                return;
+            }
+            ArrayList<Node<GameObject>> childs = focus.getChildren();
+
+            for (Node<GameObject> n : childs) {
+                if (n.getData().hasAttribute("RigidBody")) {
+                    RigidBody rb = (RigidBody) n.getData().getAttribute("RigidBody");
+                    //apply forces
+                    rb.addForce(new Vector2D(0, rb.getMass() * 10));
+
+
+
+                    //CODE TO ACTUALLY IMPLEMENT POSITION UPDATE
+
+                    Vector2D velocityByForce = rb.getForce().scale(timeScale / (20.0 * rb.getMass())) ;
+                    System.out.println("Object velocity from force: " + velocityByForce + "; FOrce: " + rb.getForce());
+                    rb.zeroForce();
+                    Vector2D rbVel = rb.getVelocity() ;
+                    rbVel = rbVel.add(velocityByForce);
+                    rb.setVelocity(rbVel);
+                    System.out.println("Object velocity: " + rbVel);
+                    if (rbVel.magnitude() > .1 ) {
+                        
+                        Vector2D displacement = rbVel.scale(timeScale/ 20.0);
+                        if (n.getData().hasAttribute("Mesh"))
+                            updates.put(n,new Object[]{displacement, new Vector2D(0,0)});
+
+                        n.getData().step(displacement);
+                    }
+
+
+                } else {
+                    if (updates.containsKey(n.getParent())) {
+                        updates.put(n, updates.get(n.getParent()));
+                    }
+                }
+                tick.func.f(n); //call on its members
+                
+            }
+        };
+
+        tick.func.f(objectTree);
+
         //correct collisions (this is quite the daunting physics problem)
 
         //send draw signal  RESOLVED code 501
-        for (GameObject g : needToBeRedrawn) {
-            pushMessage(hub, new Message(501, new Object[]{g.getAttribute("mesh")}));
+        for (HashMap.Entry<Node<GameObject>,Object[]> pair : updates.entrySet()) { //JACK OVERFLOW
+            pushMessage(hub, new Message(
+                502, 
+                new Object[]{
+                    pair.getKey(), //specify which object is moving (pray for no hash collisions)
+                    pair.getValue()[0], //corresponds to translation vector
+                    pair.getValue()[1] //will correspond to rotation
+                }
+                ));
+            // pushMessage(hub, new Message(501, new Object[]{ needToBeRedrawn.get(n).getAttribute("mesh"), translations.get(n), rotations.get(n) }));
         }
     }
+
+
+
 }
 

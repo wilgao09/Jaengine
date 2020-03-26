@@ -1,7 +1,7 @@
 package jaengine.core;
 
 
-import jaengine.math.*;
+// import jaengine.logic.*;
 import jaengine.modules.graphics.*;
 import jaengine.modules.physics.*;
 import jaengine.modules.input.*;
@@ -16,6 +16,7 @@ public class Engine {
     private Physics physics;
     private Input input;
     private MessageHub hub;
+    private Graphics graphics;
 
     private double screenX = 600;
     private double screenY = 600;
@@ -24,7 +25,7 @@ public class Engine {
     public Engine() {
 
     }
-    public void setScreenWIdth(double x) {
+    public void setScreenWidth(double x) {
         screenX = x;
     }
     public void setScreenHeight(double y) {
@@ -35,6 +36,7 @@ public class Engine {
             isRunning = true;
 
             hub = new MessageHub();
+
             physics = new Physics(hub);
             input = new Input(hub);
 
@@ -46,11 +48,31 @@ public class Engine {
             } catch (InterruptedException e) {
                 System.out.println("wtf");
             }
+            
             hub.append(start);
+            System.out.println("Please give the engine a few seconds to warm up!");
+            try {
+                Thread.sleep(1500);
+            } catch (InterruptedException e) {
+                System.out.println("wtf");
+            }
+            System.out.println("WARM!");
+            // try {
+            //     Thread.sleep(1000);
+            // } catch (InterruptedException e) {
+            //     System.out.println("wtf");
+            // }
+
+            // graphics = (Graphics)hub.getMembers().get(3);
         }
     }
 
     public void addToEnvironment(GameObject n) {
-        physics.addToEnvironment(n);
+        if (n.hasAttribute("Mesh")) {
+            
+            hub.append(new Message(1501, new Object[]{n, ((Mesh)(n.getAttribute("Mesh"))).getPoints()}));
+        } else {
+            hub.append(new Message(1501, new Object[]{n, new double[0]}));
+        }
     }
 }

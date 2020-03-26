@@ -1,7 +1,7 @@
 package jaengine.modules.physics;
 
 
-import jaengine.math.*;
+import jaengine.logic.*;
 
 //exists to be a root
 public class Environment extends GameObject{

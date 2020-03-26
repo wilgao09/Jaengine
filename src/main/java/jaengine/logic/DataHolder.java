@@ -1,4 +1,4 @@
-package jaengine.math;
+package jaengine.logic;
 
 import java.util.ArrayList;
 

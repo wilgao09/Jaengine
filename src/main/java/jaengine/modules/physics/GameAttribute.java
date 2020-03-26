@@ -4,7 +4,7 @@ package jaengine.modules.physics;
 //NEVER UE THIS RAW
 
 public class GameAttribute {
-    protected String name;
+    public final String name;
     protected boolean active = true;
     public GameAttribute(String s) {
         this.name = s;

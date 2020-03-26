@@ -1,7 +1,5 @@
 package jaengine.modules.messages;
 
-import java.util.Date;
-import java.text.DateFormat;
 
 public class Message {
     final public long timeReceived;

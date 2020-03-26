@@ -1,11 +1,11 @@
-package jaengine.math;
+package jaengine.logic;
 
 import java.util.ArrayList;
 
 public class Node<T> {
     protected T data;
     protected Node<T> parent;
-    protected ArrayList<Node<T>> children;
+    protected ArrayList<Node<T>> children = new ArrayList<Node<T>>();
     public Node(){};
     public Node(T dat) {
         this.data = dat;

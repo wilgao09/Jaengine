@@ -1,6 +1,8 @@
 package jaengine.modules.physics;
 
-public class Mesh extends GameAttribute{
+
+
+public class Mesh extends GameAttribute {
     private double[] points;
     public Mesh() {
         super("Mesh",true);

@@ -1,21 +1,16 @@
 package jaengine.modules.graphics;
 
 import jaengine.modules.messages.*;
-import jaengine.math.Vector2D;
+import jaengine.logic.Vector2D;
 
 import java.util.ArrayList;
 
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.Parent; //?? this vs group?
 import javafx.stage.Stage;
 import javafx.scene.Group;
-
-import javafx.scene.shape.*;
 import javafx.scene.paint.*;
-import javafx.scene.control.*;
 
 import javafx.concurrent.Task;
 
@@ -27,7 +22,9 @@ public class Graphics extends Application implements Messageable{
     private MessageHub hub;
     private ArrayList<Message> messages = new ArrayList<Message>();
 
-    private jaengine.modules.graphics.Map objectMap = new jaengine.modules.graphics.Map();
+    private jaengine.modules.graphics.Map objectMap;
+
+    protected Group group;
 
     public Graphics(){ hub = Graphics.lastHub; hub.addMember(this); };//not for human use
     public static void startGraphics(MessageHub m) {
@@ -74,7 +71,8 @@ public class Graphics extends Application implements Messageable{
                 // p.setSpecularColor(Color.RED);
                 // p.setDiffuseColor(Color.BLUE);
                 // b.setMaterial(p);
-                Scene nScene = new Scene(new Group(), (double)(Double)m.data[0], (double)(Double)m.data[1], Color.BLUE);
+                this.group = new Group();
+                Scene nScene = new Scene(this.group, (double)(Double)m.data[0], (double)(Double)m.data[1], Color.BLACK);
                 window.setWidth((Double)m.data[0]);
                 window.setHeight((Double)m.data[1]);
                 window.setScene(nScene);
@@ -87,8 +85,20 @@ public class Graphics extends Application implements Messageable{
                 // Object someScene = Screen.setNewScene((double)m.data[0],(double)m.data[1]);
                 // pushMessage(hub,new Message(101, new Object[]{someScene}));
                 // break;
-            case (501):
+            case(1501):
+                // Vector2D[] points = (Vector2D[])(m.data[1]);
+                // double[] fxReadablePoints = new double[points.length * 2];
+                // for (int n = 0; n != points.length; n++) {
+                //     fxReadablePoints[n*2] = points[n].x();
+                //     fxReadablePoints[n*2 + 1] = points[n].y();
+                // }
+                double[] points = (double[])(m.data[1]);
+                if (points.length != 0)
+                    objectMap.addObject(m.data[0], points);
+                break;
+            case (502):
                 objectMap.apply(m.data[0],(Vector2D)m.data[1],(Vector2D)m.data[2]);
+                break;
         }
     }
 
@@ -98,6 +108,7 @@ public class Graphics extends Application implements Messageable{
             MessageHub.endProgram = true;
         });
         window = mainStage;
+        objectMap = new Map(this);
         mainStage.setTitle("Titleeee");
         // mainStage.setScene(new Scene(new Group(new Button("??")), 900.0, 100.0, Color.RED));
         // mainStage.setWidth(900.0);
@@ -109,7 +120,8 @@ public class Graphics extends Application implements Messageable{
             protected Integer call() {
                 while (!MessageHub.endProgram) {
                     //jesus fking christ
-                    while (messages.size() > 0) {
+                    int msgCount = messages.size();
+                    for (int n = 0; n != Math.ceil(msgCount/3.0); n++) {
                         Platform.runLater(new Thread( () -> {readNextMessage();}));
                     } 
                     try {
@@ -128,18 +140,5 @@ public class Graphics extends Application implements Messageable{
         checker.start();
 
     }
-    public Object setNewScene(double w, double h) {
-        Scene s = new Scene(new Group(), w, h);
-        window.setScene(s);
-        return s;
-    }
-
-
-
-
-     //fx helpers
-
-
-     
 
 }

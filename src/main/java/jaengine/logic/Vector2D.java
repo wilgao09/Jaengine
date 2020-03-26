@@ -1,4 +1,4 @@
-package jaengine.math;
+package jaengine.logic;
 
 
 public class Vector2D {
@@ -22,6 +22,12 @@ public class Vector2D {
 
     public double magnitude() {
         return Math.sqrt(this.x * this.x + this.y * this.y);
+    }
+    public Vector2D scale(double scale) {
+        return new Vector2D(this.x * scale, this.y * scale);
+    }
+    public String toString() {
+        return this.x + "i + " + this.y + "j";
     }
     //please never use this
     public double angle() {
