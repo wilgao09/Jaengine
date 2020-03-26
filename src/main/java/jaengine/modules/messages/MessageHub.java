@@ -34,10 +34,12 @@ public class MessageHub implements Runnable{
             //     listens.get(msg.code).f();
 
             // }
-            for (Messageable m : callingList) {
-                m.addMessage(msg);
-                Debug.log("Mailing " + msg + " to " + m);
-            }
+        }
+        for (Messageable m : callingList) {
+            m.addMessage(msg);
+            Debug.log("Mailing " + msg + " to " + m);
+        }
+        if (msg.code != 502) {
             Debug.log("Processed!");
         }
     }

@@ -97,7 +97,7 @@ public class Graphics extends Application implements Messageable{
                     objectMap.addObject(m.data[0], points);
                 break;
             case (502):
-                objectMap.apply(m.data[0],(Vector2D)m.data[1],(Vector2D)m.data[2]);
+                objectMap.apply(m.data[0],(Vector2D)m.data[1],(double)m.data[2]);
                 break;
         }
     }

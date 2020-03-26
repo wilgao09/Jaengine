@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 public class GameObject extends Node<GameObject>{
     protected Vector2D location= new Vector2D(0,0);
-    private Vector2D center;
+    // private Vector2D center;
     protected Environment environment;
     protected String name;
 

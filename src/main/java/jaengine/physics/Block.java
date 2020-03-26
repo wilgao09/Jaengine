@@ -10,7 +10,7 @@ public class Block extends GameObject{
         Mesh m = new Mesh();
         m.setMesh("box",new double[]{width,height});
         RigidBody  rb = new RigidBody();
-
+        Hitbox hb = new Hitbox("box", new double[]{width, height});
         super.addAttribute(m);
         super.addAttribute(rb);
     }

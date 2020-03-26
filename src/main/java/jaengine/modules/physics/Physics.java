@@ -48,6 +48,10 @@ public class Physics implements Messageable{
         switch(m.code) {
             case(1501):
                 addToEnvironment((GameObject)(m.data[0]));
+                break;
+            case(1503):
+                displaceObject((GameObject)(m.data[0]), (Vector2D)(m.data[1]));
+                break;
         }
     }
 
@@ -98,17 +102,15 @@ public class Physics implements Messageable{
                     //CODE TO ACTUALLY IMPLEMENT POSITION UPDATE
 
                     Vector2D velocityByForce = rb.getForce().scale(timeScale / (20.0 * rb.getMass())) ;
-                    System.out.println("Object velocity from force: " + velocityByForce + "; FOrce: " + rb.getForce());
                     rb.zeroForce();
                     Vector2D rbVel = rb.getVelocity() ;
                     rbVel = rbVel.add(velocityByForce);
                     rb.setVelocity(rbVel);
-                    System.out.println("Object velocity: " + rbVel);
                     if (rbVel.magnitude() > .1 ) {
                         
                         Vector2D displacement = rbVel.scale(timeScale/ 20.0);
                         if (n.getData().hasAttribute("Mesh"))
-                            updates.put(n,new Object[]{displacement, new Vector2D(0,0)});
+                            updates.put(n,new Object[]{displacement, 0.0});
 
                         n.getData().step(displacement);
                     }
@@ -142,7 +144,25 @@ public class Physics implements Messageable{
         }
     }
 
-
+    //for now, this is meant to NOT BE USED BY THE PHYSICS TICK METHOD
+    //THIS IS FOR PHYSICS BREAKING MOVEMENT
+    public void displaceObject(GameObject g, Vector2D v) {
+        //this is a mini physics tick
+        if (g.hasAttribute("Hitbox")) {
+            Hitbox hb = ((Hitbox)(g.getAttribute("Hitbox")));
+            for (int n = 0 ;n != hb.verticies.length; n++) {
+                hb.verticies[n] = hb.verticies[n].add(v);
+            }
+        }
+        g.location = g.location.add(v);
+        this.pushMessage(hub, new Message(502, new Object[]{g, v, 0.0}));
+        for (Node<GameObject> c : g.getChildren()) {
+            GameObject child = c.getData();
+            if (!child.hasAttribute("RigidBody")) {
+                displaceObject(child, v);
+            }
+        }
+    }
 
 }
 

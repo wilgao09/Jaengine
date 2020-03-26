@@ -14,7 +14,7 @@ public class Map {
     public Map(Graphics g) { graphics = g;}
 
     //precondition the object is in the hashmap
-    public void apply(Object obj, Vector2D translate, Vector2D rotate) {
+    public void apply(Object obj, Vector2D translate, double rotate) {
         if (nodes.containsKey(obj)) {
             Node n = nodes.get(obj);
             n.setTranslateX(n.getTranslateX() + translate.x());

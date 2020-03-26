@@ -4,11 +4,22 @@ import jaengine.logic.Vector2D;
 
 public class Hitbox extends GameAttribute {
     //this is SIZE
-    public Hitbox(double x, double y, double z) {
+    protected Vector2D[] verticies;
+    public Hitbox(Vector2D[] verticies) {
         super("Hitbox",true);
+        this.verticies = verticies;
         
     }
-
+    public Hitbox(String type, double[] dimensions) {
+        super("Hitbox", true);
+        if (type.equals("box")) { //dim0 is w, dim1 is h
+            verticies = new Vector2D[4];
+            verticies[0] = new Vector2D(-0.5 * dimensions[0], -0.5 * dimensions[1]);
+            verticies[1] = new Vector2D(0.5 * dimensions[0], -0.5 * dimensions[1]);
+            verticies[2] = new Vector2D(0.5 * dimensions[0], 0.5 * dimensions[1]);
+            verticies[3] = new Vector2D(-0.5 * dimensions[0], -0.5 * dimensions[1]);
+        }
+    }
     // public static Vector2D computeCenter(double[] points) {
 
     // }
