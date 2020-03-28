@@ -9,6 +9,9 @@ import javafx.scene.Scene;
 import javafx.scene.input.KeyEvent;
 // import javafx.scene.input.KeyCode;
 
+/**
+ * Bad
+ */
 public class Input implements Messageable {
     private MessageHub hub;
     private ArrayList<Message> messages = new ArrayList<Message>();

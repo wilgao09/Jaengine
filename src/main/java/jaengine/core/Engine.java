@@ -7,6 +7,8 @@ import jaengine.modules.physics.*;
 import jaengine.modules.input.*;
 import jaengine.modules.messages.*;
 
+import javafx.event.EventHandler;
+
 
 /**
  * THIS MUST BE CHANGED FOR IT IS NOT FLEXIBLE ENOUGH
@@ -34,9 +36,7 @@ public class Engine {
     public void startEngine() {
         if (!isRunning) {
             isRunning = true;
-
             hub = new MessageHub();
-
             physics = new Physics(hub);
             input = new Input(hub);
 
