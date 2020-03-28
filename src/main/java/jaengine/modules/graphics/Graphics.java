@@ -33,23 +33,23 @@ public class Graphics extends Application implements Messageable{
             Application.launch();
         }, "GRAPHICS").start();
     }
-    public Graphics(MessageHub m) { //DEPRECATED
-        this.hub = m;
-        Graphics.lastHub = m;
-        // hub.addMember(this); //THIS IS INTENTIONAL! THIS SHOULD NOT GO ON THE MAILING LIST
+    // public Graphics(MessageHub m) { //DEPRECATED
+    //     this.hub = m;
+    //     Graphics.lastHub = m;
+    //     // hub.addMember(this); //THIS IS INTENTIONAL! THIS SHOULD NOT GO ON THE MAILING LIST
 
-        new Thread(this,"GRAPHICS").start(); //THE THREAD GRAPH LOOKS REALY WEIRD RIGHT NOW, BUT BASICALLY 
-        /**
-         * Things im assuming based on my observations:
-         *  1) javafx's fx application thread basically takes over main. It's a blocking thread that goes init, start, end, then continues on after Application.launch
-         *  2) All javafx operations msut be done in the fx application thread
-         *  3) Javafx's Application.launch works BY REFLECTION. This isnt an observation and mroelike reading documentation.
-         *      This ultimately leads us to "we need another thread for the fx application to take over". That wopuld be the GRAPHICS thread.
-         *      FX's reflection is the tricky part because it creates a copy of the class just to run the fx cycle. This measn we need to get that copy into the message hub and not our copy.
-         *          This means the object we create is garbage
-         */
+    //     new Thread(this,"GRAPHICS").start(); //THE THREAD GRAPH LOOKS REALY WEIRD RIGHT NOW, BUT BASICALLY 
+    //     /**
+    //      * Things im assuming based on my observations:
+    //      *  1) javafx's fx application thread basically takes over main. It's a blocking thread that goes init, start, end, then continues on after Application.launch
+    //      *  2) All javafx operations msut be done in the fx application thread
+    //      *  3) Javafx's Application.launch works BY REFLECTION. This isnt an observation and mroelike reading documentation.
+    //      *      This ultimately leads us to "we need another thread for the fx application to take over". That wopuld be the GRAPHICS thread.
+    //      *      FX's reflection is the tricky part because it creates a copy of the class just to run the fx cycle. This measn we need to get that copy into the message hub and not our copy.
+    //      *          This means the object we create is garbage
+    //      */
 
-    } 
+    // } 
 
     //required by Messageable
     public void addMessage(Message m) {

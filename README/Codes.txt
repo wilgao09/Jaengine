@@ -1,0 +1,29 @@
+Would make this a csv, but I want READABILITY
+Ill csv it when I make the final project
+
+0XX: System 
+(TODO: make close window a message and now a public boolean)
+
+1XX: Graphics
+101: created new javafx scene (data length 1: the scene created)
+
+2XX: Input
+201: key pressed (keycode and time)
+202: key released (keycode and time)
+
+3XX: Unallocated
+
+4XX: Unallocated
+
+5XX: Physics
+501
+502: object moved (the object, translation vector, rotation in radians)
+503: force displacement (the object, translation vector)
+
+1NXX: Game Logic
+1100: create a new scene (height, width)
+1501: create a new object (object, points)
+
+**Notes:** 
+1NXX should have a corresponding NXX in the modules. the 1 denotes game logic.
+I skipped 3 and 4 by accident; i have 3 for physics in my notebook.
