@@ -37,12 +37,12 @@
     </dependency>
     <dependency>
       <groupId>org.openjfx</groupId>
-      <artifactId>javafx-media</artifactId>
+      <artifactId>javafx-graphics</artifactId>
       <version>14</version>
     </dependency>
     <dependency>
       <groupId>org.openjfx</groupId>
-      <artifactId>javafx-swing</artifactId>
+      <artifactId>javafx-media</artifactId>
       <version>14</version>
     </dependency>
     <!-- <dependency>
