@@ -28,24 +28,24 @@ public class MessageHub implements Runnable{
     public void mail() {
     
         Message msg = messageStack.remove(0);
-        if (msg.code != 502) {
+        // if (msg.code != 502) {
             Debug.log( "Processing message: " + msg);
             // if (listens.containsKey(msg.code)) {
             //     listens.get(msg.code).f();
 
             // }
-        }
+        // }
         for (Messageable m : callingList) {
             m.addMessage(msg);
             Debug.log("Mailing " + msg + " to " + m);
         }
-        if (msg.code != 502) {
+        // if (msg.code != 502) {
             Debug.log("Processed!");
-        }
+        // }
     }
     public void run() {
         while (!MessageHub.endProgram) {
-            if (messageStack.size() > 0) {
+            while (messageStack.size() > 0) {
                 mail();
             }
             try {

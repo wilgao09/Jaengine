@@ -69,15 +69,38 @@ public class Engine {
 
     //these dont really belong here; i will make a physics upper odule later for these
     public void addToEnvironment(GameObject n) {
-        if (n.hasAttribute("Mesh")) {
-            
-            hub.append(new Message(1501, new Object[]{n, ((Mesh)(n.getAttribute("Mesh"))).getPoints()}));
-        } else {
-            hub.append(new Message(1501, new Object[]{n, new double[0]}));
+        
+        Recursor<OneArgFuncWrapper> init = new Recursor<OneArgFuncWrapper>();
+        init.func = (Object o) -> {
+            GameObject q = ((GameObject)o);
+            if (q.hasAttribute("Mesh")) {
+                
+                hub.append(new Message(1501, new Object[]{q, ((Mesh)(q.getAttribute("Mesh"))).getPoints()}));
+            } else {
+                hub.append(new Message(1501, new Object[]{q, new double[0]}));
+            }
+            for (Node<GameObject> ob : q.getChildren()) {
+                init.func.f(ob.getData());
+            }
+        };
+        init.func.f(n);
+    }
+
+    public void addToEnvironment(GameObject[] go) {
+        for (GameObject g :go ) {
+            addToEnvironment(g);
         }
     }
 
     public void forceDisplace(GameObject n, Vector2D v) {
         hub.append(new Message(1503, new Object[]{n, v}));
+    }
+
+
+
+
+
+    public void printTree() {
+        System.out.println(physics.getEnviron().toString());
     }
 }

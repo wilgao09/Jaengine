@@ -14,11 +14,12 @@ public class Map {
     public Map(Graphics g) { graphics = g;}
 
     //precondition the object is in the hashmap
-    public void apply(Object obj, Vector2D translate, double rotate) {
+    public void apply(Object obj, Vector2D translate, Vector2D rotate) {
         if (nodes.containsKey(obj)) {
             Node n = nodes.get(obj);
             n.setTranslateX(n.getTranslateX() + translate.x());
             n.setTranslateY(n.getTranslateY() + translate.y());
+            n.setRotate(n.getRotate() + rotate.y() * 180 / 3.141592);
         }
     }
     // public void addBox(Object obj, double w, double h) {

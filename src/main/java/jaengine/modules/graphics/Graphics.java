@@ -56,6 +56,9 @@ public class Graphics extends Application implements Messageable{
         messages.add(m);
     }
     public Message getNextMessage() {
+        if (messages.size() == 0) {
+            return null;
+        }
         return messages.remove(0);
     }
     public void run() {
@@ -64,6 +67,7 @@ public class Graphics extends Application implements Messageable{
         // Application.launch(new String[0]); //the usual message breaking is in start
     }
     public void readMessage(Message m) {
+        if (m == null) return;
         switch(m.code) {
             case(1100):
                 // Box b = new Box(200,200,200);
@@ -97,7 +101,9 @@ public class Graphics extends Application implements Messageable{
                     objectMap.addObject(m.data[0], points);
                 break;
             case (502):
-                objectMap.apply(m.data[0],(Vector2D)m.data[1],(double)m.data[2]);
+                objectMap.apply(m.data[0],
+                    (Vector2D)m.data[1],
+                    (Vector2D)m.data[2]);
                 break;
         }
     }
@@ -121,11 +127,11 @@ public class Graphics extends Application implements Messageable{
                 while (!MessageHub.endProgram) {
                     //jesus fking christ
                     int msgCount = messages.size();
-                    for (int n = 0; n != Math.ceil(msgCount/3.0); n++) {
+                    for (int n = 0; n != msgCount; n++) {
                         Platform.runLater(new Thread( () -> {readNextMessage();}));
                     } 
                     try {
-                        Thread.sleep(50);
+                        Thread.sleep(20);
                     } catch (InterruptedException e) {
                         Debug.log("FATAL ERROR: GRAPHICS THREAD INTERRUPTED");
                         break;

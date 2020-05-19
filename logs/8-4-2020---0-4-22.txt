@@ -1,0 +1,161 @@
+[0:4:23]		Processing message: 1100 600.0 600.0
+[0:4:23]		Mailing 1100 600.0 600.0 to jaengine.modules.physics.Physics@586e9262
+[0:4:23]		Mailing 1100 600.0 600.0 to jaengine.modules.input.Input@5c510db7
+[0:4:23]		Mailing 1100 600.0 600.0 to jaengine.modules.graphics.Graphics@338e7694
+[0:4:23]		Processed!
+[0:4:23]		Processing message: 101 javafx.scene.Scene@19539859
+[0:4:23]		Mailing 101 javafx.scene.Scene@19539859 to jaengine.modules.physics.Physics@586e9262
+[0:4:23]		Mailing 101 javafx.scene.Scene@19539859 to jaengine.modules.input.Input@5c510db7
+[0:4:23]		Mailing 101 javafx.scene.Scene@19539859 to jaengine.modules.graphics.Graphics@338e7694
+[0:4:23]		Processed!
+[0:4:25]		Processing message: 1501 firstBlock [D@4d14aea
+[0:4:25]		Mailing 1501 firstBlock [D@4d14aea to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 1501 firstBlock [D@4d14aea to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 1501 firstBlock [D@4d14aea to jaengine.modules.graphics.Graphics@338e7694
+[0:4:25]		Processed!
+[0:4:25]		Processing message: 1503 firstBlock 100.0i + 400.0j
+[0:4:25]		Mailing 1503 firstBlock 100.0i + 400.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 1503 firstBlock 100.0i + 400.0j to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 1503 firstBlock 100.0i + 400.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:25]		Processed!
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.475j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.475j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.475j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:25]		Mailing 502 firstBlock 100.0i + 400.0j 0.0 to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 502 firstBlock 100.0i + 400.0j 0.0 to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 502 firstBlock 100.0i + 400.0j 0.0 to jaengine.modules.graphics.Graphics@338e7694
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.45j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.45j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.45j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.4250000000000003j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.4250000000000003j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.4250000000000003j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.4000000000000004j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.4000000000000004j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.4000000000000004j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.375j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.375j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.375j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.35j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.35j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.35j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.325j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.325j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.325j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.3000000000000003j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.3000000000000003j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.3000000000000003j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.2750000000000004j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.2750000000000004j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.2750000000000004j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.25j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.25j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.25j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.225j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.225j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.225j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.2j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.2j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:25]		Mailing 502 firstBlock 1.0i + -3.2j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.1750000000000003j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.1750000000000003j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.1750000000000003j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.1500000000000004j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.1500000000000004j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.1500000000000004j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.125j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.125j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.125j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.1j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.1j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.1j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.075j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.075j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.075j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.0500000000000003j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.0500000000000003j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.0500000000000003j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.0250000000000004j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.0250000000000004j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.0250000000000004j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.0j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.0j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -3.0j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.975j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.975j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.975j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.95j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.95j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.95j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.9250000000000003j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.9250000000000003j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.9250000000000003j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.9000000000000004j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.9000000000000004j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.9000000000000004j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.875j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.875j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.875j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.85j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.85j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.85j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.825j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.825j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.825j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.8000000000000003j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.8000000000000003j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.8000000000000003j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.7750000000000004j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.7750000000000004j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.7750000000000004j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.75j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.75j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.75j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.725j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.725j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.725j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.7j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.7j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:26]		Mailing 502 firstBlock 1.0i + -2.7j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.6750000000000003j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.6750000000000003j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.6750000000000003j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.6500000000000004j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.6500000000000004j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.6500000000000004j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.625j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.625j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.625j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.6j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.6j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.6j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.575j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.575j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.575j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.5500000000000003j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.5500000000000003j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.5500000000000003j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.5250000000000004j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.5250000000000004j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.5250000000000004j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.5j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.5j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.5j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.475j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.475j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.475j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.45j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.45j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.45j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.4250000000000003j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.4250000000000003j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.4250000000000003j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.4000000000000004j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.4000000000000004j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.4000000000000004j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.375j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.375j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.375j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.35j 0.0i + 0.0j to jaengine.modules.physics.Physics@586e9262
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.35j 0.0i + 0.0j to jaengine.modules.input.Input@5c510db7
+[0:4:27]		Mailing 502 firstBlock 1.0i + -2.35j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@338e7694

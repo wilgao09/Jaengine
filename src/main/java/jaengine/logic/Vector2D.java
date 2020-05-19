@@ -29,6 +29,11 @@ public class Vector2D {
     public String toString() {
         return this.x + "i + " + this.y + "j";
     }
+    public Vector2D rotate(double radians) {
+        double s = FastTrig.sin(radians);
+        double c = FastTrig.cos(radians);
+        return new Vector2D(x * c - y * s, x * s + y * c); //wikiedpia page for rotation matrix
+    }
     //please never use this
     public double angle() {
         return Math.atan(this.y / this.x);

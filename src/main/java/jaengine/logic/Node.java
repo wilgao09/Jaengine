@@ -29,6 +29,15 @@ public class Node<T> {
         this.parent = paren;
     }
 
+    public void addChild(Node<T> n) {
+        this.children.add(n);
+        n.setParent(this);
+    }
+
+    public String toString(int i) {
+        return this.toString();
+    }
+
     // public String toString() {
 
     // }

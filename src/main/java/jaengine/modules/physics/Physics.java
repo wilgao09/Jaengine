@@ -56,6 +56,8 @@ public class Physics implements Messageable{
     }
 
     public boolean addToEnvironment(GameObject o) {
+        //if it already has a parent, ignore it because it was intended for graphics
+        if (o.getParent() != null) return false;
         //determine if there are duplicate names; if there are, do nothing
         for (Node<GameObject> n : objectTree.getChildren()) {
             if (n.getData().name.equals(o.getName())) {
@@ -77,7 +79,7 @@ public class Physics implements Messageable{
         // ArrayList<Vector2D> translations = new ArrayList<Vector2D>();
         // ArrayList<Double> rotations = new ArrayList<Double>();
 
-        HashMap<Node<GameObject>, Object[]> updates = new HashMap<Node<GameObject>, Object[]>();
+        HashMap<Node<GameObject>, Vector2D[]> updates = new HashMap<Node<GameObject>, Vector2D[]>();
         //resolve forces, combine to preexisting velocity
         //resolve new location
 
@@ -95,31 +97,47 @@ public class Physics implements Messageable{
                 if (n.getData().hasAttribute("RigidBody")) {
                     RigidBody rb = (RigidBody) n.getData().getAttribute("RigidBody");
                     //apply forces
-                    rb.addForce(new Vector2D(0, rb.getMass() * 10));
+                    rb.addCOMForce(new Vector2D(0, rb.getMass() * 10));
 
 
 
-                    //CODE TO ACTUALLY IMPLEMENT POSITION UPDATE
-
-                    Vector2D velocityByForce = rb.getForce().scale(timeScale / (20.0 * rb.getMass())) ;
+                    //UPDATE POSITIONS BASED ON NET FORCE
+                    Vector2D velocityByForce = rb.getNetForce().scale(timeScale / (20.0 * rb.getMass())) ;
                     rb.zeroForce();
                     Vector2D rbVel = rb.getVelocity() ;
                     rbVel = rbVel.add(velocityByForce);
                     rb.setVelocity(rbVel);
-                    if (rbVel.magnitude() > .1 ) {
-                        
+
+                    //UPDATE ANGPOSITION BASED ON NET TORQUES
+                    Vector2D angVelByTorque = rb.getNetTorque().scale(timeScale/ (20 * rb.getRotInetria()));
+                    rb.zeroTorque();
+                    Vector2D rbAngVel = rb.getAngVel();
+                    rbAngVel = rbAngVel.add(angVelByTorque);
+                    rb.setAngVel(rbAngVel);
+
+                    if (rbVel.magnitude() > .1 || rbAngVel.magnitude() > .1) {
+                        // System.out.println ("velocity " + rbVel);
                         Vector2D displacement = rbVel.scale(timeScale/ 20.0);
-                        if (n.getData().hasAttribute("Mesh"))
-                            updates.put(n,new Object[]{displacement, 0.0});
+                        Vector2D angDisp = rbAngVel.scale(timeScale/20.0);
+                        if (n.getData().hasAttribute("Mesh")) 
+                            updates.put(n,new Vector2D[]{displacement, angDisp});
 
                         n.getData().step(displacement);
+                        n.getData().spin(angDisp);
                     }
 
 
                 } else {
                     if (updates.containsKey(n.getParent())) {
-                        updates.put(n, updates.get(n.getParent()));
-                    }
+                        Vector2D[] pUpdates = updates.get(n.getParent());
+                        Vector2D dispFromCenter = n.getData().location.add(n.getParent().getData().location.reverse());
+                        Vector2D dispByAngDisp = dispFromCenter.rotate(pUpdates[1].y()).add(dispFromCenter.reverse());
+                        updates.put(n, new Vector2D[]{pUpdates[0].add(dispByAngDisp),pUpdates[1]});
+
+                        n.getData().step(pUpdates[0].add(dispByAngDisp));
+                        n.getData().spin(pUpdates[1]);
+                    } 
+
                 }
                 tick.func.f(n); //call on its members
                 
@@ -129,15 +147,34 @@ public class Physics implements Messageable{
         tick.func.f(objectTree);
 
         //correct collisions (this is quite the daunting physics problem)
+        tick.func = (Object o) -> {
+            
+            GameObject focus;
+            try {
+                focus = ((GameObject)o);
+            } catch(ClassCastException e) {
+                return;
+            }
+            ArrayList<Node<GameObject>> childs = focus.getChildren();
+            for (Node<GameObject> n : childs) {
+                for (Node<GameObject> c : childs) {
+                    if (n != c && n.getData().isIntersecting(c.getData())) {
+                        //require further investigation
+                    }
+                }
+            }
+        };
+
+        tick.func.f(objectTree);
 
         //send draw signal  RESOLVED code 501
-        for (HashMap.Entry<Node<GameObject>,Object[]> pair : updates.entrySet()) { //JACK OVERFLOW
+        for (HashMap.Entry<Node<GameObject>,Vector2D[]> pair : updates.entrySet()) { //JACK OVERFLOW
             pushMessage(hub, new Message(
                 502, 
                 new Object[]{
                     pair.getKey(), //specify which object is moving (pray for no hash collisions)
                     pair.getValue()[0], //corresponds to translation vector
-                    pair.getValue()[1] //will correspond to rotation
+                    pair.getValue()[1] //will correspond to rotation "vector"
                 }
                 ));
             // pushMessage(hub, new Message(501, new Object[]{ needToBeRedrawn.get(n).getAttribute("mesh"), translations.get(n), rotations.get(n) }));
@@ -148,21 +185,26 @@ public class Physics implements Messageable{
     //THIS IS FOR PHYSICS BREAKING MOVEMENT
     public void displaceObject(GameObject g, Vector2D v) {
         //this is a mini physics tick
-        if (g.hasAttribute("Hitbox")) {
-            Hitbox hb = ((Hitbox)(g.getAttribute("Hitbox")));
-            for (int n = 0 ;n != hb.verticies.length; n++) {
-                hb.verticies[n] = hb.verticies[n].add(v);
-            }
-        }
-        g.location = g.location.add(v);
-        this.pushMessage(hub, new Message(502, new Object[]{g, v, 0.0}));
+        // if (g.hasAttribute("Hitbox")) {
+        //     Hitbox hb = ((Hitbox)(g.getAttribute("Hitbox")));
+        //     for (int n = 0 ;n != hb.verticies.length; n++) {
+        //         hb.verticies[n] = hb.verticies[n].add(v);
+        //     }
+        // }
+        g.step(v);
+        this.pushMessage(hub, new Message(502, new Object[]{g, v, g.rotation}));
         for (Node<GameObject> c : g.getChildren()) {
             GameObject child = c.getData();
-            if (!child.hasAttribute("RigidBody")) {
+            if (!child.hasAttribute("RigidBody") ) {
                 displaceObject(child, v);
             }
         }
     }
 
+
+
+    public Environment getEnviron() {
+        return this.objectTree;
+    }
 }
 

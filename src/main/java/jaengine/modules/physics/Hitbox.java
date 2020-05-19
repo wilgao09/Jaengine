@@ -20,6 +20,29 @@ public class Hitbox extends GameAttribute {
             verticies[3] = new Vector2D(-0.5 * dimensions[0], -0.5 * dimensions[1]);
         }
     }
+
+    public Vector2D[] transformedPoints(Vector2D position) {
+        Vector2D[] nPoints = new Vector2D[verticies.length];
+        for (int n = 0 ;n != verticies.length; n++) {
+            nPoints[n] = verticies[n].add(position);
+        }
+        return nPoints;
+    }
+    public Vector2D[] transformPoints(double radians) {
+        Vector2D[] nPoints = new Vector2D[verticies.length];
+        // double[] matrix = new double[]{Math.cos(radians), Math.sin(radians)};
+        for (int n = 0 ;n != verticies.length; n++) {
+            nPoints[n] = verticies[n].rotate(radians);
+        }
+        return nPoints;
+    }
+    public Vector2D[] transformPoints(Vector2D position, double radians) {
+        Vector2D[] nPoints = new Vector2D[verticies.length];
+        for (int n = 0 ;n != verticies.length; n++) {
+            nPoints[n] = verticies[n].add(position).rotate(radians);
+        }
+        return nPoints;
+    }
     // public static Vector2D computeCenter(double[] points) {
 
     // }
