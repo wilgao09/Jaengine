@@ -17,4 +17,7 @@ public class Block extends GameObject{
         super.radius=Math.sqrt(width * width + height * height)/2;
         System.out.println("RESOLVED RADIUS TO BE " + Math.sqrt(width * width + height * height)/2);
     }
+    public void applyDensity(double density) { //mass per square elngth
+        
+    }
 }

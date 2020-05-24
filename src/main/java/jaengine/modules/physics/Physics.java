@@ -97,45 +97,57 @@ public class Physics implements Messageable{
                 if (n.getData().hasAttribute("RigidBody")) {
                     RigidBody rb = (RigidBody) n.getData().getAttribute("RigidBody");
                     //apply forces
-                    rb.addCOMForce(new Vector2D(0, rb.getMass() * 10));
+                    rb.addCOMForce(new Vector2D(0, n.getData().getSysMass() * 10));
 
 
 
                     //UPDATE POSITIONS BASED ON NET FORCE
-                    Vector2D velocityByForce = rb.getNetForce().scale(timeScale / (20.0 * rb.getMass())) ;
+                    Vector2D velocityByForce = rb.getNetForce().scale(timeScale / (20.0 * n.getData().getSysMass())) ;
                     rb.zeroForce();
                     Vector2D rbVel = rb.getVelocity() ;
                     rbVel = rbVel.add(velocityByForce);
                     rb.setVelocity(rbVel);
 
-                    //UPDATE ANGPOSITION BASED ON NET TORQUES
-                    Vector2D angVelByTorque = rb.getNetTorque().scale(timeScale/ (20 * rb.getRotInetria()));
+                    // //UPDATE ANGPOSITION BASED ON NET TORQUES
+                    Vector2D angVelByTorque = rb.getNetTorque().scale(timeScale/ (20 * n.getData().getSysRotInert()));
                     rb.zeroTorque();
                     Vector2D rbAngVel = rb.getAngVel();
                     rbAngVel = rbAngVel.add(angVelByTorque);
                     rb.setAngVel(rbAngVel);
 
+                    //theres a lot of interesting stuff happening here
+                    //new rule: the rigidbody applies to itself AND the system of NONRBS that are its children and not of any other rigidbodies
+
+
                     if (rbVel.magnitude() > .1 || rbAngVel.magnitude() > .1) {
                         // System.out.println ("velocity " + rbVel);
-                        Vector2D displacement = rbVel.scale(timeScale/ 20.0);
                         Vector2D angDisp = rbAngVel.scale(timeScale/20.0);
+                        GameObject curr = n.getData();
+                        Vector2D cCom = curr.checkSysCOM();
+                        pushMessage(hub, new Message(503,new Object[]{cCom.x(), cCom.y(),6}));
+                        Vector2D dispFromCOM = curr.location.add(cCom.reverse());
+                        Vector2D dispByRotation = dispFromCOM.rotate(angDisp.y()).add(dispFromCOM.reverse());
+                        Vector2D displacement = rbVel.scale(timeScale/ 20.0).add(dispByRotation);
+
+
+                        
                         if (n.getData().hasAttribute("Mesh")) 
                             updates.put(n,new Vector2D[]{displacement, angDisp});
 
-                        n.getData().step(displacement);
-                        n.getData().spin(angDisp);
+                        // n.getData().step(displacement);
+                        // n.getData().spin(angDisp);
                     }
 
 
                 } else {
                     if (updates.containsKey(n.getParent())) {
                         Vector2D[] pUpdates = updates.get(n.getParent());
-                        Vector2D dispFromCenter = n.getData().location.add(n.getParent().getData().location.reverse());
+                        Vector2D dispFromCenter = n.getData().location.add(n.getParent().getData().location.reverse()); //check here if slow
                         Vector2D dispByAngDisp = dispFromCenter.rotate(pUpdates[1].y()).add(dispFromCenter.reverse());
                         updates.put(n, new Vector2D[]{pUpdates[0].add(dispByAngDisp),pUpdates[1]});
 
-                        n.getData().step(pUpdates[0].add(dispByAngDisp));
-                        n.getData().spin(pUpdates[1]);
+                        // n.getData().step(pUpdates[0].add(dispByAngDisp));
+                        // n.getData().spin(pUpdates[1]);
                     } 
 
                 }
@@ -169,6 +181,8 @@ public class Physics implements Messageable{
 
         //send draw signal  RESOLVED code 501
         for (HashMap.Entry<Node<GameObject>,Vector2D[]> pair : updates.entrySet()) { //JACK OVERFLOW
+            pair.getKey().getData().step(pair.getValue()[0]);
+            pair.getKey().getData().spin(pair.getValue()[1]);
             pushMessage(hub, new Message(
                 502, 
                 new Object[]{

@@ -33,7 +33,11 @@ public class Input implements Messageable {
     public void run() {
         while (!MessageHub.endProgram) {
             while (this.messages.size() > 0) {
-                readNextMessage();
+                try {
+                    readNextMessage();
+                } catch (NullPointerException e) {
+                    System.out.println("Input tried to read something that didnt exist");
+                }
             }
             try {
                 Thread.sleep(50);

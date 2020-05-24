@@ -8,8 +8,8 @@ public class RigidBody extends GameAttribute{
     private Vector2D angVel = new Vector2D(0,0);
     private Vector2D torques = new Vector2D(0,0);
 
-    private double mass = 1; //in kg
-    private double momentOfIntertia = 1;
+    // private double mass = 1; //in kg
+    // private double momentOfIntertia = 1;
     public RigidBody() {
         super("RigidBody",true);
     }
@@ -28,12 +28,12 @@ public class RigidBody extends GameAttribute{
     public void zeroForce() {
         this.forces = new Vector2D(0, 0);
     }
-    public double getMass() {
-        return mass;
-    }
-    public void setMass(double m) {
-        this.mass = m;
-    }
+    // public double getMass() {
+    //     return mass;
+    // }
+    // public void setMass(double m) {
+    //     this.mass = m;
+    // }
 
     public Vector2D getAngVel() {
         return this.angVel;
@@ -50,10 +50,10 @@ public class RigidBody extends GameAttribute{
     public void zeroTorque() {
         this.torques = new Vector2D(0,0);
     }
-    public void setRotIntertia(double I) {
-        this.momentOfIntertia = I;
-    }
-    public double getRotInetria() {
-        return this.momentOfIntertia;
-    }
+    // public void setRotIntertia(double I) {
+    //     this.momentOfIntertia = I;
+    // }
+    // public double getRotInetria() {
+    //     return this.momentOfIntertia;
+    // }
 }

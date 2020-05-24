@@ -1,0 +1,1708 @@
+[20:32:2]		Processing message: 1100 600.0 600.0
+[20:32:2]		Mailing 1100 600.0 600.0 to jaengine.modules.physics.Physics@610a1c
+[20:32:2]		Mailing 1100 600.0 600.0 to jaengine.modules.input.Input@ea6f460
+[20:32:2]		Mailing 1100 600.0 600.0 to jaengine.modules.graphics.Graphics@60811212
+[20:32:2]		Processed!
+[20:32:2]		Processing message: 101 javafx.scene.Scene@a99616c
+[20:32:2]		Mailing 101 javafx.scene.Scene@a99616c to jaengine.modules.physics.Physics@610a1c
+[20:32:2]		Mailing 101 javafx.scene.Scene@a99616c to jaengine.modules.input.Input@ea6f460
+[20:32:2]		Mailing 101 javafx.scene.Scene@a99616c to jaengine.modules.graphics.Graphics@60811212
+[20:32:2]		Processed!
+[20:32:3]		Processing message: 1501 center
+  \_left
+  \_right [D@4f9bfe5b
+[20:32:3]		Mailing 1501 center
+  \_left
+  \_right [D@4f9bfe5b to jaengine.modules.physics.Physics@610a1c
+[20:32:3]		Mailing 1501 center
+  \_left
+  \_right [D@4f9bfe5b to jaengine.modules.input.Input@ea6f460
+[20:32:3]		Mailing 1501 center
+  \_left
+  \_right [D@4f9bfe5b to jaengine.modules.graphics.Graphics@60811212
+[20:32:3]		Processed!
+[20:32:3]		Processing message: 1501 left [D@47a23c5e
+[20:32:3]		Mailing 1501 left [D@47a23c5e to jaengine.modules.physics.Physics@610a1c
+[20:32:3]		Mailing 1501 left [D@47a23c5e to jaengine.modules.input.Input@ea6f460
+[20:32:3]		Mailing 1501 left [D@47a23c5e to jaengine.modules.graphics.Graphics@60811212
+[20:32:3]		Processed!
+[20:32:3]		Processing message: 1501 right [D@7e1ed53e
+[20:32:3]		Mailing 1501 right [D@7e1ed53e to jaengine.modules.physics.Physics@610a1c
+[20:32:3]		Mailing 1501 right [D@7e1ed53e to jaengine.modules.input.Input@ea6f460
+[20:32:3]		Mailing 1501 right [D@7e1ed53e to jaengine.modules.graphics.Graphics@60811212
+[20:32:3]		Processed!
+[20:32:3]		Processing message: 1501 center
+  \_left
+  \_right [D@4f9bfe5b
+[20:32:3]		Mailing 1501 center
+  \_left
+  \_right [D@4f9bfe5b to jaengine.modules.physics.Physics@610a1c
+[20:32:3]		Mailing 1501 center
+  \_left
+  \_right [D@4f9bfe5b to jaengine.modules.input.Input@ea6f460
+[20:32:3]		Mailing 1501 center
+  \_left
+  \_right [D@4f9bfe5b to jaengine.modules.graphics.Graphics@60811212
+[20:32:3]		Processed!
+[20:32:3]		Processing message: 1501 left [D@47a23c5e
+[20:32:3]		Mailing 1501 left [D@47a23c5e to jaengine.modules.physics.Physics@610a1c
+[20:32:3]		Mailing 1501 left [D@47a23c5e to jaengine.modules.input.Input@ea6f460
+[20:32:3]		Mailing 1501 left [D@47a23c5e to jaengine.modules.graphics.Graphics@60811212
+[20:32:3]		Processed!
+[20:32:3]		Processing message: 1501 right [D@7e1ed53e
+[20:32:3]		Mailing 1501 right [D@7e1ed53e to jaengine.modules.physics.Physics@610a1c
+[20:32:3]		Mailing 1501 right [D@7e1ed53e to jaengine.modules.input.Input@ea6f460
+[20:32:3]		Mailing 1501 right [D@7e1ed53e to jaengine.modules.graphics.Graphics@60811212
+[20:32:3]		Processed!
+[20:32:3]		Processing message: 1503 center
+  \_left
+  \_right 300.0i + 0.0j
+[20:32:3]		Mailing 1503 center
+  \_left
+  \_right 300.0i + 0.0j to jaengine.modules.physics.Physics@610a1c
+[20:32:3]		Mailing 1503 center
+  \_left
+  \_right 300.0i + 0.0j to jaengine.modules.input.Input@ea6f460
+[20:32:3]		Mailing 1503 center
+  \_left
+  \_right 300.0i + 0.0j to jaengine.modules.graphics.Graphics@60811212
+[20:32:3]		Processed!
+[20:32:3]		Processing message: 1503 left 150.0i + 0.0j
+[20:32:3]		Mailing 1503 left 150.0i + 0.0j to jaengine.modules.physics.Physics@610a1c
+[20:32:3]		Mailing 1503 left 150.0i + 0.0j to jaengine.modules.input.Input@ea6f460
+[20:32:3]		Mailing 1503 left 150.0i + 0.0j to jaengine.modules.graphics.Graphics@60811212
+[20:32:3]		Processed!
+[20:32:3]		Processing message: 1503 right 450.0i + 0.0j
+[20:32:3]		Mailing 1503 right 450.0i + 0.0j to jaengine.modules.physics.Physics@610a1c
+[20:32:3]		Mailing 1503 right 450.0i + 0.0j to jaengine.modules.input.Input@ea6f460
+[20:32:3]		Mailing 1503 right 450.0i + 0.0j to jaengine.modules.graphics.Graphics@60811212
+[20:32:3]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 300.0i + 0.0j 0.0i + 0.0j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 300.0i + 0.0j 0.0i + 0.0j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 300.0i + 0.0j 0.0i + 0.0j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 300.0i + 0.0j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 300.0i + 0.0j 0.0i + 0.0j
+[20:32:4]		Mailing 502 left 300.0i + 0.0j 0.0i + 0.0j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 300.0i + 0.0j 0.0i + 0.0j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 300.0i + 0.0j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right 300.0i + 0.0j 0.0i + 0.0j
+[20:32:4]		Mailing 502 right 300.0i + 0.0j 0.0i + 0.0j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right 300.0i + 0.0j 0.0i + 0.0j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right 300.0i + 0.0j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 150.0i + 0.0j 0.0i + 0.0j
+[20:32:4]		Mailing 502 left 150.0i + 0.0j 0.0i + 0.0j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 150.0i + 0.0j 0.0i + 0.0j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 150.0i + 0.0j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right 450.0i + 0.0j 0.0i + 0.0j
+[20:32:4]		Mailing 502 right 450.0i + 0.0j 0.0i + 0.0j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right 450.0i + 0.0j 0.0i + 0.0j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right 450.0i + 0.0j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 500.0 0.0 6
+[20:32:4]		Mailing 503 500.0 0.0 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 500.0 0.0 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 500.0 0.0 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 2.4628542155012667i + -31.246162455049564j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 2.4628542155012667i + -31.246162455049564j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 2.4628542155012667i + -31.246162455049564j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 2.4628542155012667i + -31.246162455049564j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 0.615713553875338i + -7.792790613762392j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 0.615713553875338i + -7.792790613762392j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 0.615713553875338i + -7.792790613762392j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 0.615713553875338i + -7.792790613762392j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -3.0785677693765763i + 39.113953068811945j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -3.0785677693765763i + 39.113953068811945j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -3.0785677693765763i + 39.113953068811945j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -3.0785677693765763i + 39.113953068811945j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 500.0 0.02499999999999621 6
+[20:32:4]		Mailing 503 500.0 0.02499999999999621 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 500.0 0.02499999999999621 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 500.0 0.02499999999999621 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 7.3219539675177145i + -30.450999312289127j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 7.3219539675177145i + -30.450999312289127j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 7.3219539675177145i + -30.450999312289127j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 7.3219539675177145i + -30.450999312289127j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 1.8304884918794357i + -7.575249828072266j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 1.8304884918794357i + -7.575249828072266j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 1.8304884918794357i + -7.575249828072266j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 1.8304884918794357i + -7.575249828072266j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -9.152442459397122i + 38.17624914036142j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -9.152442459397122i + 38.17624914036142j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -9.152442459397122i + 38.17624914036142j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -9.152442459397122i + 38.17624914036142j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 500.0 0.07500000000000757 6
+[20:32:4]		Mailing 503 500.0 0.07500000000000757 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 500.0 0.07500000000000757 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 500.0 0.07500000000000757 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 12.000797964224404i + -28.905571678589556j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 12.000797964224404i + -28.905571678589556j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 12.000797964224404i + -28.905571678589556j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 12.000797964224404i + -28.905571678589556j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 3.000199491056094i + -7.170142919647379j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 3.000199491056094i + -7.170142919647379j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 3.000199491056094i + -7.170142919647379j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 3.000199491056094i + -7.170142919647379j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -15.000997455280498i + 36.300714598236965j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -15.000997455280498i + 36.300714598236965j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -15.000997455280498i + 36.300714598236965j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -15.000997455280498i + 36.300714598236965j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 500.0 0.15000000000001515 6
+[20:32:4]		Mailing 503 500.0 0.15000000000001515 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 500.0 0.15000000000001515 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 500.0 0.15000000000001515 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 16.384297709953472i + -26.647302549310858j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 16.384297709953472i + -26.647302549310858j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 16.384297709953472i + -26.647302549310858j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 16.384297709953472i + -26.647302549310858j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 4.096074427488361i + -6.586825637327685j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 4.096074427488361i + -6.586825637327685j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 4.096074427488361i + -6.586825637327685j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 4.096074427488361i + -6.586825637327685j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -20.48037213744189i + 33.53412818663859j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -20.48037213744189i + 33.53412818663859j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -20.48037213744189i + 33.53412818663859j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -20.48037213744189i + 33.53412818663859j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 500.0 0.2500000000000284 6
+[20:32:4]		Mailing 503 500.0 0.2500000000000284 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 500.0 0.2500000000000284 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 500.0 0.2500000000000284 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 20.364633242807827i + -23.731148838127325j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 20.364633242807827i + -23.731148838127325j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 20.364633242807827i + -23.731148838127325j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 20.364633242807827i + -23.731148838127325j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 5.091158310701928i + -5.839037209531824j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 5.091158310701928i + -5.839037209531824j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 5.091158310701928i + -5.839037209531824j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 5.091158310701928i + -5.839037209531824j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -25.455791553509812i + 29.94518604765912j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -25.455791553509812i + 29.94518604765912j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -25.455791553509812i + 29.94518604765912j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -25.455791553509812i + 29.94518604765912j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 500.0 0.37500000000001893 6
+[20:32:4]		Mailing 503 500.0 0.37500000000001893 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 500.0 0.37500000000001893 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 500.0 0.37500000000001893 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 23.843905158006535i + -20.22824898210255j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 23.843905158006535i + -20.22824898210255j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 23.843905158006535i + -20.22824898210255j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 23.843905158006535i + -20.22824898210255j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 5.96097628950163i + -4.944562245525638j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 5.96097628950163i + -4.944562245525638j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 5.96097628950163i + -4.944562245525638j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 5.96097628950163i + -4.944562245525638j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -29.804881447508123i + 25.62281122762814j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -29.804881447508123i + 25.62281122762814j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -29.804881447508123i + 25.62281122762814j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -29.804881447508123i + 25.62281122762814j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 500.0 0.5250000000000151 6
+[20:32:4]		Mailing 503 500.0 0.5250000000000151 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 500.0 0.5250000000000151 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 500.0 0.5250000000000151 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 26.736542518688367i + -16.22417254125794j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 26.736542518688367i + -16.22417254125794j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 26.736542518688367i + -16.22417254125794j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 26.736542518688367i + -16.22417254125794j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 6.684135629672085i + -3.924793135314456j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 6.684135629672085i + -3.924793135314456j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 6.684135629672085i + -3.924793135314456j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 6.684135629672085i + -3.924793135314456j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -33.42067814836045i + 20.673965676572426j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -33.42067814836045i + 20.673965676572426j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -33.42067814836045i + 20.673965676572426j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -33.42067814836045i + 20.673965676572426j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 500.0 0.7000000000000359 6
+[20:32:4]		Mailing 503 500.0 0.7000000000000359 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 500.0 0.7000000000000359 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 500.0 0.7000000000000359 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 28.9714074297683i + -11.816814862196896j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 28.9714074297683i + -11.816814862196896j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 28.9714074297683i + -11.816814862196896j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 28.9714074297683i + -11.816814862196896j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 7.242851857442069i + -2.8042037155492388j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 7.242851857442069i + -2.8042037155492388j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 7.242851857442069i + -2.8042037155492388j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 7.242851857442069i + -2.8042037155492388j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -36.21425928721033i + 15.221018577746076j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -36.21425928721033i + 15.221018577746076j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -36.21425928721033i + 15.221018577746076j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -36.21425928721033i + 15.221018577746076j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 500.0 0.9000000000000057 6
+[20:32:4]		Mailing 503 500.0 0.9000000000000057 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 500.0 0.9000000000000057 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 500.0 0.9000000000000057 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 30.493544513921304i + -7.113988605056983j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 30.493544513921304i + -7.113988605056983j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 30.493544513921304i + -7.113988605056983j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 30.493544513921304i + -7.113988605056983j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 7.623386128480313i + -1.6097471512642247j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 7.623386128480313i + -1.6097471512642247j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 7.623386128480313i + -1.6097471512642247j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 7.623386128480313i + -1.6097471512642247j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -38.11693064240161i + 9.398735756321235j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -38.11693064240161i + 9.398735756321235j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -38.11693064240161i + 9.398735756321235j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -38.11693064240161i + 9.398735756321235j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 500.0 1.1250000000000093 6
+[20:32:4]		Mailing 503 500.0 1.1250000000000093 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 500.0 1.1250000000000093 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 500.0 1.1250000000000093 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 31.265532265285348i + -2.230771388314025j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 31.265532265285348i + -2.230771388314025j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 31.265532265285348i + -2.230771388314025j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 31.265532265285348i + -2.230771388314025j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 7.816383066321318i + -0.3701928470785276j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 7.816383066321318i + -0.3701928470785276j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 7.816383066321318i + -0.3701928470785276j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 7.816383066321318i + -0.3701928470785276j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -39.08191533160668i + 3.3509642353924676j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -39.08191533160668i + 3.3509642353924676j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -39.08191533160668i + 3.3509642353924676j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -39.08191533160668i + 3.3509642353924676j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 499.9999999999999 1.374999999999981 6
+[20:32:4]		Mailing 503 499.9999999999999 1.374999999999981 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 499.9999999999999 1.374999999999981 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 499.9999999999999 1.374999999999981 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 31.268403051077136i + 2.713325196599692j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 31.268403051077136i + 2.713325196599692j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 31.268403051077136i + 2.713325196599692j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 31.268403051077136i + 2.713325196599692j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 7.817100762769268i + 0.8845812991499371j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 7.817100762769268i + 0.8845812991499371j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 7.817100762769268i + 0.8845812991499371j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 7.817100762769268i + 0.8845812991499371j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -39.08550381384641i + -2.772906495749544j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -39.08550381384641i + -2.772906495749544j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -39.08550381384641i + -2.772906495749544j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -39.08550381384641i + -2.772906495749544j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 499.9999999999999 1.650000000000015 6
+[20:32:4]		Mailing 503 499.9999999999999 1.650000000000015 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 499.9999999999999 1.650000000000015 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 499.9999999999999 1.650000000000015 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 30.502109143039903i + 7.597295556754619j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 30.502109143039903i + 7.597295556754619j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 30.502109143039903i + 7.597295556754619j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 30.502109143039903i + 7.597295556754619j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 7.625527285759958i + 2.1243238891886618j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 7.625527285759958i + 2.1243238891886618j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 7.625527285759958i + 2.1243238891886618j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 7.625527285759958i + 2.1243238891886618j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -38.127636428799875i + -8.821619445943309j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -38.127636428799875i + -8.821619445943309j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -38.127636428799875i + -8.821619445943309j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -38.127636428799875i + -8.821619445943309j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 499.9999999999999 1.9500000000000075 6
+[20:32:4]		Mailing 503 499.9999999999999 1.9500000000000075 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 499.9999999999999 1.9500000000000075 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 499.9999999999999 1.9500000000000075 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 28.985523328427902i + 12.301616732304335j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 28.985523328427902i + 12.301616732304335j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 28.985523328427902i + 12.301616732304335j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 28.985523328427902i + 12.301616732304335j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 7.246380832106965i + 3.3191541830760904j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 7.246380832106965i + 3.3191541830760904j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 7.246380832106965i + 3.3191541830760904j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 7.246380832106965i + 3.3191541830760904j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -36.23190416053485i + -14.645770915380371j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -36.23190416053485i + -14.645770915380371j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -36.23190416053485i + -14.645770915380371j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -36.23190416053485i + -14.645770915380371j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 499.9999999999999 2.2750000000000243 6
+[20:32:4]		Mailing 503 499.9999999999999 2.2750000000000243 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 499.9999999999999 2.2750000000000243 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 499.9999999999999 2.2750000000000243 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 26.755974099349487i + 16.711188471510845j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 26.755974099349487i + 16.711188471510845j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 26.755974099349487i + 16.711188471510845j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 26.755974099349487i + 16.711188471510845j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 6.6889935248373575i + 4.440297117877698j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 6.6889935248373575i + 4.440297117877698j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 6.6889935248373575i + 4.440297117877698j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 6.6889935248373575i + 4.440297117877698j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -33.44496762418686i + -20.10148558938848j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -33.44496762418686i + -20.10148558938848j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -33.44496762418686i + -20.10148558938848j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -33.44496762418686i + -20.10148558938848j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 499.9999999999999 2.6250000000000377 6
+[20:32:4]		Mailing 503 499.9999999999999 2.6250000000000377 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 499.9999999999999 2.6250000000000377 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 499.9999999999999 2.6250000000000377 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 23.868326868095863i + 20.718164425041778j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 23.868326868095863i + 20.718164425041778j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 23.868326868095863i + 20.718164425041778j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 23.868326868095863i + 20.718164425041778j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 5.9670817170239445i + 5.460791106260444j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 5.9670817170239445i + 5.460791106260444j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 5.9670817170239445i + 5.460791106260444j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 5.9670817170239445i + 5.460791106260444j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -29.835408585119893i + -25.05395553130211j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -29.835408585119893i + -25.05395553130211j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -29.835408585119893i + -25.05395553130211j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -29.835408585119893i + -25.05395553130211j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 499.9999999999999 3.0000000000000755 6
+[20:32:4]		Mailing 503 499.9999999999999 3.0000000000000755 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 499.9999999999999 3.0000000000000755 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 499.9999999999999 3.0000000000000755 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 20.393633822949283i + 24.224604818849777j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 20.393633822949283i + 24.224604818849777j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 20.393633822949283i + 24.224604818849777j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 20.393633822949283i + 24.224604818849777j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 5.098408455737314i + 6.3561512047124396j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 5.098408455737314i + 6.3561512047124396j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 5.098408455737314i + 6.3561512047124396j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 5.098408455737314i + 6.3561512047124396j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -25.492042278686625i + -29.380756023562206j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -25.492042278686625i + -29.380756023562206j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -25.492042278686625i + -29.380756023562206j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -25.492042278686625i + -29.380756023562206j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 499.99999999999983 3.400000000000081 6
+[20:32:4]		Mailing 503 499.99999999999983 3.400000000000081 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 499.99999999999983 3.400000000000081 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 499.99999999999983 3.400000000000081 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 16.417385649210047i + 27.144885358427192j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 16.417385649210047i + 27.144885358427192j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 16.417385649210047i + 27.144885358427192j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 16.417385649210047i + 27.144885358427192j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 4.104346412302505i + 7.104971339606781j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 4.104346412302505i + 7.104971339606781j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 4.104346412302505i + 7.104971339606781j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 4.104346412302505i + 7.104971339606781j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -20.52173206151255i + -32.97485669803396j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -20.52173206151255i + -32.97485669803396j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -20.52173206151255i + -32.97485669803396j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -20.52173206151255i + -32.97485669803396j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 499.99999999999983 3.8250000000000783 6
+[20:32:4]		Mailing 503 499.99999999999983 3.8250000000000783 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 499.99999999999983 3.8250000000000783 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 499.99999999999983 3.8250000000000783 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 12.037408132823316i + 29.407803115581867j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 12.037408132823316i + 29.407803115581867j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 12.037408132823316i + 29.407803115581867j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 12.037408132823316i + 29.407803115581867j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 3.0093520332058006i + 7.689450778895459j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 3.0093520332058006i + 7.689450778895459j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 3.0093520332058006i + 7.689450778895459j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 3.0093520332058006i + 7.689450778895459j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -15.04676016602923i + -35.74725389447731j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -15.04676016602923i + -35.74725389447731j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -15.04676016602923i + -35.74725389447731j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -15.04676016602923i + -35.74725389447731j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 499.99999999999983 4.275000000000086 6
+[20:32:4]		Mailing 503 499.99999999999983 4.275000000000086 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 499.99999999999983 4.275000000000086 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 499.99999999999983 4.275000000000086 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 7.361455398161667i + 30.958327604503804j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 7.361455398161667i + 30.958327604503804j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 7.361455398161667i + 30.958327604503804j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 7.361455398161667i + 30.958327604503804j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 1.8403638495404095i + 8.095831901125944j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 1.8403638495404095i + 8.095831901125944j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 1.8403638495404095i + 8.095831901125944j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 1.8403638495404095i + 8.095831901125944j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -9.201819247702048i + -37.629159505629744j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -9.201819247702048i + -37.629159505629744j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -9.201819247702048i + -37.629159505629744j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -9.201819247702048i + -37.629159505629744j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 499.99999999999983 4.750000000000087 6
+[20:32:4]		Mailing 503 499.99999999999983 4.750000000000087 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 499.99999999999983 4.750000000000087 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 499.99999999999983 4.750000000000087 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right 2.5045589924090734i + 31.75895398334508j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 2.5045589924090734i + 31.75895398334508j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 2.5045589924090734i + 31.75895398334508j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right 2.5045589924090734i + 31.75895398334508j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left 0.6261397481022755i + 8.314738495836252j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left 0.6261397481022755i + 8.314738495836252j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left 0.6261397481022755i + 8.314738495836252j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left 0.6261397481022755i + 8.314738495836252j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right -3.130698740511349i + -38.57369247918135j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right -3.130698740511349i + -38.57369247918135j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right -3.130698740511349i + -38.57369247918135j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right -3.130698740511349i + -38.57369247918135j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 503 499.9999999999998 5.250000000000083 6
+[20:32:4]		Mailing 503 499.9999999999998 5.250000000000083 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 503 499.9999999999998 5.250000000000083 6 to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 503 499.9999999999998 5.250000000000083 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 center
+  \_left
+  \_right -2.413801966893601i + 31.790625106044285j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right -2.413801966893601i + 31.790625106044285j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right -2.413801966893601i + 31.790625106044285j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 center
+  \_left
+  \_right -2.413801966893601i + 31.790625106044285j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 left -0.6034504917234074i + 8.341406276511055j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 left -0.6034504917234074i + 8.341406276511055j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 left -0.6034504917234074i + 8.341406276511055j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 left -0.6034504917234074i + 8.341406276511055j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:4]		Processing message: 502 right 3.01725245861698i + -38.55703138255532j 0.0i + 0.15700000000000003j
+[20:32:4]		Mailing 502 right 3.01725245861698i + -38.55703138255532j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:4]		Mailing 502 right 3.01725245861698i + -38.55703138255532j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:4]		Mailing 502 right 3.01725245861698i + -38.55703138255532j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:4]		Processed!
+[20:32:5]		Processing message: 503 499.9999999999998 5.775000000000088 6
+[20:32:5]		Mailing 503 499.9999999999998 5.775000000000088 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.9999999999998 5.775000000000088 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.9999999999998 5.775000000000088 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -7.272639964894779i + 31.053199755875532j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -7.272639964894779i + 31.053199755875532j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -7.272639964894779i + 31.053199755875532j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -7.272639964894779i + 31.053199755875532j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -1.8181599912236948i + 8.175799938968872j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -1.8181599912236948i + 8.175799938968872j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -1.8181599912236948i + 8.175799938968872j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -1.8181599912236948i + 8.175799938968872j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 9.090799956118474i + -37.57899969484439j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 9.090799956118474i + -37.57899969484439j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 9.090799956118474i + -37.57899969484439j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 9.090799956118474i + -37.57899969484439j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.99999999999983 6.3250000000000925 6
+[20:32:5]		Mailing 503 499.99999999999983 6.3250000000000925 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.99999999999983 6.3250000000000925 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.99999999999983 6.3250000000000925 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -11.95243527974202i + 29.5654555562538j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -11.95243527974202i + 29.5654555562538j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -11.95243527974202i + 29.5654555562538j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -11.95243527974202i + 29.5654555562538j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -2.9881088199354906i + 7.822613889063444j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -2.9881088199354906i + 7.822613889063444j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -2.9881088199354906i + 7.822613889063444j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -2.9881088199354906i + 7.822613889063444j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 14.940544099677481i + -35.663069445317234j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 14.940544099677481i + -35.663069445317234j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 14.940544099677481i + -35.663069445317234j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 14.940544099677481i + -35.663069445317234j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.99999999999983 6.900000000000095 6
+[20:32:5]		Mailing 503 499.99999999999983 6.900000000000095 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.99999999999983 6.900000000000095 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.99999999999983 6.900000000000095 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -16.33807597839848i + 27.364626501042302j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -16.33807597839848i + 27.364626501042302j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -16.33807597839848i + 27.364626501042302j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -16.33807597839848i + 27.364626501042302j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -4.08451899459962i + 7.291156625260562j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -4.08451899459962i + 7.291156625260562j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -4.08451899459962i + 7.291156625260562j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -4.08451899459962i + 7.291156625260562j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 20.42259497299807i + -32.85578312630286j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 20.42259497299807i + -32.85578312630286j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 20.42259497299807i + -32.85578312630286j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 20.42259497299807i + -32.85578312630286j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.9999999999998 7.500000000000094 6
+[20:32:5]		Mailing 503 499.9999999999998 7.500000000000094 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.9999999999998 7.500000000000094 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.9999999999998 7.500000000000094 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -20.32168939872966i + 24.50548649440306j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -20.32168939872966i + 24.50548649440306j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -20.32168939872966i + 24.50548649440306j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -20.32168939872966i + 24.50548649440306j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -5.080422349682394i + 6.595121623600747j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -5.080422349682394i + 6.595121623600747j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -5.080422349682394i + 6.595121623600747j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -5.080422349682394i + 6.595121623600747j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 25.402111748412068i + -29.225608118003763j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 25.402111748412068i + -29.225608118003763j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 25.402111748412068i + -29.225608118003763j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 25.402111748412068i + -29.225608118003763j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.99999999999983 8.125000000000114 6
+[20:32:5]		Mailing 503 499.99999999999983 8.125000000000114 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.99999999999983 8.125000000000114 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.99999999999983 8.125000000000114 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -23.80529547008129i + 21.059001457504586j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -23.80529547008129i + 21.059001457504586j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -23.80529547008129i + 21.059001457504586j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -23.80529547008129i + 21.059001457504586j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -5.951323867520301i + 5.752250364376131j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -5.951323867520301i + 5.752250364376131j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -5.951323867520301i + 5.752250364376131j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -5.951323867520301i + 5.752250364376131j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 29.756619337601563i + -24.861251821880707j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 29.756619337601563i + -24.861251821880707j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 29.756619337601563i + -24.861251821880707j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 29.756619337601563i + -24.861251821880707j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.99999999999983 8.775000000000128 6
+[20:32:5]		Mailing 503 499.99999999999983 8.775000000000128 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.99999999999983 8.775000000000128 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.99999999999983 8.775000000000128 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -26.703216609197426i + 17.110583171458803j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -26.703216609197426i + 17.110583171458803j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -26.703216609197426i + 17.110583171458803j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -26.703216609197426i + 17.110583171458803j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -6.675804152299349i + 4.783895792864701j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -6.675804152299349i + 4.783895792864701j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -6.675804152299349i + 4.783895792864701j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -6.675804152299349i + 4.783895792864701j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 33.37902076149675i + -19.869478964323502j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 33.37902076149675i + -19.869478964323502j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 33.37902076149675i + -19.869478964323502j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 33.37902076149675i + -19.869478964323502j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.9999999999998 9.45000000000013 6
+[20:32:5]		Mailing 503 499.9999999999998 9.45000000000013 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.9999999999998 9.45000000000013 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.9999999999998 9.45000000000013 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -28.944184918221225i + 12.757987821675624j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -28.944184918221225i + 12.757987821675624j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -28.944184918221225i + 12.757987821675624j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -28.944184918221225i + 12.757987821675624j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -7.236046229555278i + 3.7144969554189053j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -7.236046229555278i + 3.7144969554189053j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -7.236046229555278i + 3.7144969554189053j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -7.236046229555278i + 3.7144969554189053j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 36.18023114777654i + -14.372484777094474j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 36.18023114777654i + -14.372484777094474j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 36.18023114777654i + -14.372484777094474j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 36.18023114777654i + -14.372484777094474j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.99999999999983 10.150000000000137 6
+[20:32:5]		Mailing 503 499.99999999999983 10.150000000000137 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.99999999999983 10.150000000000137 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.99999999999983 10.150000000000137 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -30.473094859283922i + 8.108910947456769j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -30.473094859283922i + 8.108910947456769j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -30.473094859283922i + 8.108910947456769j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -30.473094859283922i + 8.108910947456769j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -7.618273714820965i + 2.570977736864199j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -7.618273714820965i + 2.570977736864199j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -7.618273714820965i + 2.570977736864199j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -7.618273714820965i + 2.570977736864199j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 38.09136857410489i + -8.504888684320969j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 38.09136857410489i + -8.504888684320969j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 38.09136857410489i + -8.504888684320969j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 38.09136857410489i + -8.504888684320969j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.99999999999983 10.875000000000142 6
+[20:32:5]		Mailing 503 499.99999999999983 10.875000000000142 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.99999999999983 10.875000000000142 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.99999999999983 10.875000000000142 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -31.252358302573832i + 3.2783379671735986j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -31.252358302573832i + 3.2783379671735986j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -31.252358302573832i + 3.2783379671735986j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -31.252358302573832i + 3.2783379671735986j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -7.813089575643435i + 1.3820844917933925j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -7.813089575643435i + 1.3820844917933925j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -7.813089575643435i + 1.3820844917933925j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -7.813089575643435i + 1.3820844917933925j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 39.06544787821728i + -2.4104224589670196j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 39.06544787821728i + -2.4104224589670196j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 39.06544787821728i + -2.4104224589670196j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 39.06544787821728i + -2.4104224589670196j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.9999999999998 11.625000000000131 6
+[20:32:5]		Mailing 503 499.9999999999998 11.625000000000131 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.9999999999998 11.625000000000131 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.9999999999998 11.625000000000131 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -31.262828627188362i + -1.6142845398457326j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -31.262828627188362i + -1.6142845398457326j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -31.262828627188362i + -1.6142845398457326j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -31.262828627188362i + -1.6142845398457326j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -7.815707156797071i + 0.17767886503855257j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -7.815707156797071i + 0.17767886503855257j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -7.815707156797071i + 0.17767886503855257j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -7.815707156797071i + 0.17767886503855257j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 39.07853578398544i + 3.7616056748071514j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 39.07853578398544i + 3.7616056748071514j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 39.07853578398544i + 3.7616056748071514j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 39.07853578398544i + 3.7616056748071514j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.9999999999998 12.40000000000012 6
+[20:32:5]		Mailing 503 499.9999999999998 12.40000000000012 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.9999999999998 12.40000000000012 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.9999999999998 12.40000000000012 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -30.504271155839277i + -6.447987206366702j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -30.504271155839277i + -6.447987206366702j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -30.504271155839277i + -6.447987206366702j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -30.504271155839277i + -6.447987206366702j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -7.626067788959801i + -1.011996801591704j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -7.626067788959801i + -1.011996801591704j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -7.626067788959801i + -1.011996801591704j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -7.626067788959801i + -1.011996801591704j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 38.13033894479905i + 9.85998400795835j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 38.13033894479905i + 9.85998400795835j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 38.13033894479905i + 9.85998400795835j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 38.13033894479905i + 9.85998400795835j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.9999999999998 13.200000000000111 6
+[20:32:5]		Mailing 503 499.9999999999998 13.200000000000111 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.9999999999998 13.200000000000111 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.9999999999998 13.200000000000111 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -28.995368364792455i + -11.10325362157683j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -28.995368364792455i + -11.10325362157683j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -28.995368364792455i + -11.10325362157683j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -28.995368364792455i + -11.10325362157683j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -7.2488420911980995i + -2.157063405394201j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -7.2488420911980995i + -2.157063405394201j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -7.2488420911980995i + -2.157063405394201j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -7.2488420911980995i + -2.157063405394201j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 36.244210455990526i + 15.735317026971057j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 36.244210455990526i + 15.735317026971057j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 36.244210455990526i + 15.735317026971057j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 36.244210455990526i + 15.735317026971057j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.9999999999998 14.02500000000012 6
+[20:32:5]		Mailing 503 499.9999999999998 14.02500000000012 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.9999999999998 14.02500000000012 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.9999999999998 14.02500000000012 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -26.773259754729423i + -15.464960245896629j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -26.773259754729423i + -15.464960245896629j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -26.773259754729423i + -15.464960245896629j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -26.773259754729423i + -15.464960245896629j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -6.6933149386823345i + -3.228740061474136j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -6.6933149386823345i + -3.228740061474136j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -6.6933149386823345i + -3.228740061474136j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -6.6933149386823345i + -3.228740061474136j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 33.466574693411786i + 21.24370030737078j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 33.466574693411786i + 21.24370030737078j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 33.466574693411786i + 21.24370030737078j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 33.466574693411786i + 21.24370030737078j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.9999999999998 14.875000000000123 6
+[20:32:5]		Mailing 503 499.9999999999998 14.875000000000123 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.9999999999998 14.875000000000123 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.9999999999998 14.875000000000123 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -23.892627714995655i + -19.425208179016863j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -23.892627714995655i + -19.425208179016863j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -23.892627714995655i + -19.425208179016863j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -23.892627714995655i + -19.425208179016863j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -5.973156928748892i + -4.200052044754202j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -5.973156928748892i + -4.200052044754202j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -5.973156928748892i + -4.200052044754202j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -5.973156928748892i + -4.200052044754202j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 29.865784643744547i + 26.25026022377108j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 29.865784643744547i + 26.25026022377108j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 29.865784643744547i + 26.25026022377108j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 29.865784643744547i + 26.25026022377108j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.9999999999998 15.750000000000123 6
+[20:32:5]		Mailing 503 499.9999999999998 15.750000000000123 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.9999999999998 15.750000000000123 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.9999999999998 15.750000000000123 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -20.424351881372445i + -22.885977126338908j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -20.424351881372445i + -22.885977126338908j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -20.424351881372445i + -22.885977126338908j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -20.424351881372445i + -22.885977126338908j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -5.106087970343083i + -5.046494281584721j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -5.106087970343083i + -5.046494281584721j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -5.106087970343083i + -5.046494281584721j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -5.106087970343083i + -5.046494281584721j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 25.530439851715585i + 30.63247140792361j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 25.530439851715585i + 30.63247140792361j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 25.530439851715585i + 30.63247140792361j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 25.530439851715585i + 30.63247140792361j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.9999999999998 16.650000000000126 6
+[20:32:5]		Mailing 503 499.9999999999998 16.650000000000126 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.9999999999998 16.650000000000126 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.9999999999998 16.650000000000126 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -16.453765101373676i + -25.76153628476926j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -16.453765101373676i + -25.76153628476926j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -16.453765101373676i + -25.76153628476926j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -16.453765101373676i + -25.76153628476926j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -4.113441275343405i + -5.746634071192286j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -4.113441275343405i + -5.746634071192286j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -4.113441275343405i + -5.746634071192286j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -4.113441275343405i + -5.746634071192286j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 20.567206376717024i + 34.28317035596159j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 20.567206376717024i + 34.28317035596159j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 20.567206376717024i + 34.28317035596159j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 20.567206376717024i + 34.28317035596159j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.99999999999966 17.575000000000134 6
+[20:32:5]		Mailing 503 499.99999999999966 17.575000000000134 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.99999999999966 17.575000000000134 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.99999999999966 17.575000000000134 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -12.078553920051775i + -27.9805528502503j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -12.078553920051775i + -27.9805528502503j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -12.078553920051775i + -27.9805528502503j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -12.078553920051775i + -27.9805528502503j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -3.0196384800129294i + -6.282638212562542j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -3.0196384800129294i + -6.282638212562542j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -3.0196384800129294i + -6.282638212562542j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -3.0196384800129294i + -6.282638212562542j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 15.098192400064704i + 37.113191062812845j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 15.098192400064704i + 37.113191062812845j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 15.098192400064704i + 37.113191062812845j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 15.098192400064704i + 37.113191062812845j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.99999999999966 18.525000000000134 6
+[20:32:5]		Mailing 503 499.99999999999966 18.525000000000134 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.99999999999966 18.525000000000134 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.99999999999966 18.525000000000134 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -7.406355242383114i + -29.487846289310266j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -7.406355242383114i + -29.487846289310266j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -7.406355242383114i + -29.487846289310266j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -7.406355242383114i + -29.487846289310266j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -1.8515888105957572i + -6.640711572327522j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -1.8515888105957572i + -6.640711572327522j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -1.8515888105957572i + -6.640711572327522j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -1.8515888105957572i + -6.640711572327522j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 9.257944052978843i + 39.05355786163783j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 9.257944052978843i + 39.05355786163783j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 9.257944052978843i + 39.05355786163783j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 9.257944052978843i + 39.05355786163783j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 503 499.99999999999966 19.500000000000146 6
+[20:32:5]		Mailing 503 499.99999999999966 19.500000000000146 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 503 499.99999999999966 19.500000000000146 6 to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 503 499.99999999999966 19.500000000000146 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 center
+  \_left
+  \_right -2.552108300450982i + -30.24574523223315j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -2.552108300450982i + -30.24574523223315j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -2.552108300450982i + -30.24574523223315j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 center
+  \_left
+  \_right -2.552108300450982i + -30.24574523223315j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 left -0.6380270751127455i + -6.811436308058237j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 left -0.6380270751127455i + -6.811436308058237j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 left -0.6380270751127455i + -6.811436308058237j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 left -0.6380270751127455i + -6.811436308058237j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:5]		Processing message: 502 right 3.1901353755636706i + 40.05718154029141j 0.0i + 0.15700000000000003j
+[20:32:5]		Mailing 502 right 3.1901353755636706i + 40.05718154029141j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:5]		Mailing 502 right 3.1901353755636706i + 40.05718154029141j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:5]		Mailing 502 right 3.1901353755636706i + 40.05718154029141j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:5]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999966 20.50000000000015 6
+[20:32:6]		Mailing 503 499.99999999999966 20.50000000000015 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999966 20.50000000000015 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999966 20.50000000000015 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 2.3647729289112362i + -30.235013621756153j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 2.3647729289112362i + -30.235013621756153j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 2.3647729289112362i + -30.235013621756153j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 2.3647729289112362i + -30.235013621756153j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 0.5911932322277949i + -6.790003405438991j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 0.5911932322277949i + -6.790003405438991j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 0.5911932322277949i + -6.790003405438991j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 0.5911932322277949i + -6.790003405438991j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -2.9559661611389743i + 40.100017027195136j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -2.9559661611389743i + 40.100017027195136j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -2.9559661611389743i + 40.100017027195136j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -2.9559661611389743i + 40.100017027195136j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999966 21.525000000000148 6
+[20:32:6]		Mailing 503 499.99999999999966 21.525000000000148 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999966 21.525000000000148 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999966 21.525000000000148 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 7.223337295592842i + -29.455323347984873j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 7.223337295592842i + -29.455323347984873j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 7.223337295592842i + -29.455323347984873j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 7.223337295592842i + -29.455323347984873j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 1.8058343238982104i + -6.576330836996171j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 1.8058343238982104i + -6.576330836996171j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 1.8058343238982104i + -6.576330836996171j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 1.8058343238982104i + -6.576330836996171j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -9.029171619491024i + 39.18165418498104j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -9.029171619491024i + 39.18165418498104j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -9.029171619491024i + 39.18165418498104j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -9.029171619491024i + 39.18165418498104j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.9999999999996 22.57500000000015 6
+[20:32:6]		Mailing 503 499.9999999999996 22.57500000000015 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.9999999999996 22.57500000000015 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.9999999999996 22.57500000000015 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 11.904071772843906i + -27.92526175678029j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 11.904071772843906i + -27.92526175678029j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 11.904071772843906i + -27.92526175678029j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 11.904071772843906i + -27.92526175678029j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 2.976017943210934i + -6.175065439195027j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 2.976017943210934i + -6.175065439195027j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 2.976017943210934i + -6.175065439195027j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 2.976017943210934i + -6.175065439195027j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -14.88008971605484i + 37.32532719597532j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -14.88008971605484i + 37.32532719597532j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -14.88008971605484i + 37.32532719597532j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -14.88008971605484i + 37.32532719597532j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999966 23.65000000000015 6
+[20:32:6]		Mailing 503 499.99999999999966 23.65000000000015 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999966 23.65000000000015 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999966 23.65000000000015 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 16.291841289283184i + -25.681873860762813j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 16.291841289283184i + -25.681873860762813j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 16.291841289283184i + -25.681873860762813j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 16.291841289283184i + -25.681873860762813j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 4.0729603223207675i + -5.59546846519067j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 4.0729603223207675i + -5.59546846519067j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 4.0729603223207675i + -5.59546846519067j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 4.0729603223207675i + -5.59546846519067j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -20.364801611604037i + 34.577342325953474j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -20.364801611604037i + 34.577342325953474j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -20.364801611604037i + 34.577342325953474j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -20.364801611604037i + 34.577342325953474j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999955 24.75000000000015 6
+[20:32:6]		Mailing 503 499.99999999999955 24.75000000000015 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999955 24.75000000000015 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999955 24.75000000000015 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 20.278720781048065i + -22.779750527832476j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 20.278720781048065i + -22.779750527832476j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 20.278720781048065i + -22.779750527832476j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 20.278720781048065i + -22.779750527832476j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 5.069680195261981i + -4.851187631958084j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 5.069680195261981i + -4.851187631958084j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 5.069680195261981i + -4.851187631958084j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 5.069680195261981i + -4.851187631958084j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -25.348400976310046i + 31.00593815979059j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -25.348400976310046i + 31.00593815979059j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -25.348400976310046i + 31.00593815979059j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -25.348400976310046i + 31.00593815979059j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999955 25.87500000000016 6
+[20:32:6]		Mailing 503 499.99999999999955 25.87500000000016 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999955 25.87500000000016 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999955 25.87500000000016 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 23.766649802261583i + -19.289685090168895j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 23.766649802261583i + -19.289685090168895j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 23.766649802261583i + -19.289685090168895j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 23.766649802261583i + -19.289685090168895j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 5.94166245056536i + -3.9599212725422106j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 5.94166245056536i + -3.9599212725422106j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 5.94166245056536i + -3.9599212725422106j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 5.94166245056536i + -3.9599212725422106j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -29.70831225282697i + 26.699606362711073j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -29.70831225282697i + 26.699606362711073j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -29.70831225282697i + 26.699606362711073j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -29.70831225282697i + 26.699606362711073j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999955 27.025000000000155 6
+[20:32:6]		Mailing 503 499.99999999999955 27.025000000000155 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999955 27.025000000000155 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999955 27.025000000000155 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 26.669844398915984i + -15.296931432335708j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 26.669844398915984i + -15.296931432335708j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 26.669844398915984i + -15.296931432335708j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 26.669844398915984i + -15.296931432335708j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 6.667461099728939i + -2.942982858083905j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 6.667461099728939i + -2.942982858083905j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 6.667461099728939i + -2.942982858083905j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 6.667461099728939i + -2.942982858083905j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -33.33730549864495i + 21.76491429041967j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -33.33730549864495i + 21.76491429041967j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -33.33730549864495i + 21.76491429041967j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -33.33730549864495i + 21.76491429041967j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999955 28.200000000000188 6
+[20:32:6]		Mailing 503 499.99999999999955 28.200000000000188 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999955 28.200000000000188 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999955 28.200000000000188 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 28.91690692423787i + -10.899106419260864j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 28.91690692423787i + -10.899106419260864j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 28.91690692423787i + -10.899106419260864j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 28.91690692423787i + -10.899106419260864j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 7.229226731059427i + -1.8247766048152023j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 7.229226731059427i + -1.8247766048152023j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 7.229226731059427i + -1.8247766048152023j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 7.229226731059427i + -1.8247766048152023j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -36.14613365529733i + 16.323883024076064j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -36.14613365529733i + 16.323883024076064j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -36.14613365529733i + 16.323883024076064j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -36.14613365529733i + 16.323883024076064j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999955 29.400000000000183 6
+[20:32:6]		Mailing 503 499.99999999999955 29.400000000000183 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999955 29.400000000000183 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999955 29.400000000000183 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 30.452581905637985i + -6.203788272391529j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 30.452581905637985i + -6.203788272391529j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 30.452581905637985i + -6.203788272391529j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 30.452581905637985i + -6.203788272391529j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 7.6131454764094535i + -0.6321970680978897j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 7.6131454764094535i + -0.6321970680978897j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 7.6131454764094535i + -0.6321970680978897j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 7.6131454764094535i + -0.6321970680978897j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -38.06572738204744i + 10.510985340489361j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -38.06572738204744i + 10.510985340489361j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -38.06572738204744i + 10.510985340489361j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -38.06572738204744i + 10.510985340489361j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999955 30.62500000000016 6
+[20:32:6]		Mailing 503 499.99999999999955 30.62500000000016 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999955 30.62500000000016 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999955 30.62500000000016 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 31.23911478159261i + -1.3258699800933584j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 31.23911478159261i + -1.3258699800933584j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 31.23911478159261i + -1.3258699800933584j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 31.23911478159261i + -1.3258699800933584j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 7.809778695398112i + 0.6060325049766675j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 7.809778695398112i + 0.6060325049766675j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 7.809778695398112i + 0.6060325049766675j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 7.809778695398112i + 0.6060325049766675j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -39.04889347699073i + 4.469837475116691j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -39.04889347699073i + 4.469837475116691j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -39.04889347699073i + 4.469837475116691j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -39.04889347699073i + 4.469837475116691j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999955 31.87500000000015 6
+[20:32:6]		Mailing 503 499.99999999999955 31.87500000000015 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999955 31.87500000000015 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999955 31.87500000000015 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 31.257180097003666i + 3.6152671475375318j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 31.257180097003666i + 3.6152671475375318j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 31.257180097003666i + 3.6152671475375318j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 31.257180097003666i + 3.6152671475375318j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 7.814295024250875i + 1.8600667868843974j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 7.814295024250875i + 1.8600667868843974j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 7.814295024250875i + 1.8600667868843974j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 7.814295024250875i + 1.8600667868843974j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -39.07147512125454i + -1.650333934421928j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -39.07147512125454i + -1.650333934421928j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -39.07147512125454i + -1.650333934421928j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -39.07147512125454i + -1.650333934421928j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999955 33.15000000000015 6
+[20:32:6]		Mailing 503 499.99999999999955 33.15000000000015 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999955 33.15000000000015 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999955 33.15000000000015 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 30.506356337376417i + 8.498690246989685j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 30.506356337376417i + 8.498690246989685j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 30.506356337376417i + 8.498690246989685j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 30.506356337376417i + 8.498690246989685j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 7.6265890843440545i + 3.099672561747429j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 7.6265890843440545i + 3.099672561747429j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 7.6265890843440545i + 3.099672561747429j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 7.6265890843440545i + 3.099672561747429j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -38.13294542172048i + -7.698362808737084j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -38.13294542172048i + -7.698362808737084j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -38.13294542172048i + -7.698362808737084j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -38.13294542172048i + -7.698362808737084j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999955 34.45000000000016 6
+[20:32:6]		Mailing 503 499.99999999999955 34.45000000000016 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999955 34.45000000000016 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999955 34.45000000000016 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 29.005135734964995i + 13.204889748573901j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 29.005135734964995i + 13.204889748573901j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 29.005135734964995i + 13.204889748573901j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 29.005135734964995i + 13.204889748573901j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 7.251283933741206i + 4.294972437143439j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 7.251283933741206i + 4.294972437143439j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 7.251283933741206i + 4.294972437143439j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 7.251283933741206i + 4.294972437143439j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -36.2564196687062i + -13.524862185717343j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -36.2564196687062i + -13.524862185717343j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -36.2564196687062i + -13.524862185717343j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -36.2564196687062i + -13.524862185717343j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999955 35.775000000000155 6
+[20:32:6]		Mailing 503 499.99999999999955 35.775000000000155 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999955 35.775000000000155 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999955 35.775000000000155 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 26.790468819506103i + 17.618719123833337j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 26.790468819506103i + 17.618719123833337j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 26.790468819506103i + 17.618719123833337j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 26.790468819506103i + 17.618719123833337j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 6.697617204876494i + 5.417179780958314j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 6.697617204876494i + 5.417179780958314j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 6.697617204876494i + 5.417179780958314j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 6.697617204876494i + 5.417179780958314j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -33.48808602438258i + -18.98589890479166j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -33.48808602438258i + -18.98589890479166j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -33.48808602438258i + -18.98589890479166j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -33.48808602438258i + -18.98589890479166j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999955 37.12500000000015 6
+[20:32:6]		Mailing 503 499.99999999999955 37.12500000000015 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999955 37.12500000000015 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999955 37.12500000000015 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 23.916854930884426i + 21.632227219967206j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 23.916854930884426i + 21.632227219967206j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 23.916854930884426i + 21.632227219967206j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 23.916854930884426i + 21.632227219967206j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 5.979213732721078i + 6.439306804991745j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 5.979213732721078i + 6.439306804991745j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 5.979213732721078i + 6.439306804991745j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 5.979213732721078i + 6.439306804991745j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -29.89606866360549i + -23.94653402495902j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -29.89606866360549i + -23.94653402495902j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -29.89606866360549i + -23.94653402495902j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -29.89606866360549i + -23.94653402495902j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999955 38.50000000000012 6
+[20:32:6]		Mailing 503 499.99999999999955 38.50000000000012 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999955 38.50000000000012 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999955 38.50000000000012 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 20.455001079521878i + 25.147313512489596j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 20.455001079521878i + 25.147313512489596j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 20.455001079521878i + 25.147313512489596j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 20.455001079521878i + 25.147313512489596j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 5.113750269880455i + 7.336828378122355j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 5.113750269880455i + 7.336828378122355j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 5.113750269880455i + 7.336828378122355j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 5.113750269880455i + 7.336828378122355j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -25.568751349402305i + -28.284141890611956j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -25.568751349402305i + -28.284141890611956j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -25.568751349402305i + -28.284141890611956j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -25.568751349402305i + -28.284141890611956j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 503 499.99999999999955 39.90000000000013 6
+[20:32:6]		Mailing 503 499.99999999999955 39.90000000000013 6 to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 503 499.99999999999955 39.90000000000013 6 to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 503 499.99999999999955 39.90000000000013 6 to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 center
+  \_left
+  \_right 16.490082157737675i + 28.078140965413997j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 16.490082157737675i + 28.078140965413997j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 16.490082157737675i + 28.078140965413997j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 center
+  \_left
+  \_right 16.490082157737675i + 28.078140965413997j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 left 4.12252053943439i + 8.08828524135345j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 left 4.12252053943439i + 8.08828524135345j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 left 4.12252053943439i + 8.08828524135345j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 left 4.12252053943439i + 8.08828524135345j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!
+[20:32:6]		Processing message: 502 right -20.612602697172065i + -31.89142620676746j 0.0i + 0.15700000000000003j
+[20:32:6]		Mailing 502 right -20.612602697172065i + -31.89142620676746j 0.0i + 0.15700000000000003j to jaengine.modules.physics.Physics@610a1c
+[20:32:6]		Mailing 502 right -20.612602697172065i + -31.89142620676746j 0.0i + 0.15700000000000003j to jaengine.modules.input.Input@ea6f460
+[20:32:6]		Mailing 502 right -20.612602697172065i + -31.89142620676746j 0.0i + 0.15700000000000003j to jaengine.modules.graphics.Graphics@60811212
+[20:32:6]		Processed!

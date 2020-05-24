@@ -71,6 +71,7 @@ public class Intersections {
                 }
             }
         }
+        //THISIS WRONG AND NEEDS TO BE CHANGED
         return crit.scale(1.0/additions); //returns average vector
     }
 }

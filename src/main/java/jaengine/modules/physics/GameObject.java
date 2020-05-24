@@ -5,13 +5,17 @@ import java.util.HashMap;
 
 
 public class GameObject extends Node<GameObject>{
-    protected Vector2D location= new Vector2D(0,0);
     protected Vector2D rotation= new Vector2D(0,0);
     // private Vector2D center;
     protected Environment environment;
     protected String name;
 
     protected double radius = 1;
+
+    protected Vector2D location= new Vector2D(0,0);
+    private double mass = 1;
+    private double momentOfInertia = 1;
+    private EffectiveSystem sys = new EffectiveSystem();
 
     private HashMap<String,GameAttribute> attributes = new HashMap<String,GameAttribute>();
 
@@ -150,5 +154,77 @@ public class GameObject extends Node<GameObject>{
         // double required =  o.radius + this.radius;
         // System.out.println ("a distance of " + dist + "m; hit is " + required);
         return (o.location.add(this.location.reverse())).magnitude() <= o.radius + this.radius;
+    }
+
+    public double getMass() {
+        return mass;
+    }
+    public double getRotInertia() {
+        return this.momentOfInertia;
+    }
+    public void setMass(double mass) {
+        this.mass = mass;
+    }
+    public void setRotInert(double rotInert) {
+        this.momentOfInertia=rotInert;
+    }
+    public class EffectiveSystem {
+        private double mass = 1;
+        private double rotationalInertia = 1;
+        private Vector2D COM = new Vector2D(0,0);
+
+        public void step(Vector2D v) { COM = COM.add(v); }
+    }
+    public double getSysMass() {return sys.mass;}
+    public double getSysRotInert() {return sys.rotationalInertia;}
+    //dont get COM; COM is only at some instant in time and is meaningless beteen frames; just recalculate it if necessary
+    public Vector2D getSysCOM() {return sys.COM;}
+
+    public double checkSysMass() {
+        double sum = this.mass;
+        for (Node<GameObject> child : super.children) {
+            sum += child.getData().checkSysMass();
+            
+        }
+        this.sys.mass = sum;
+        return sum;
+    }
+
+    public Vector2D checkSysCOM() {
+        Vector2D loc = this.location.scale(this.mass);
+        for (Node<GameObject> child: super.children) {
+            loc = loc.add(child.getData().checkSysCOM()).scale(child.getData().getSysMass());
+        }
+        loc = loc.scale(1/this.sys.mass);
+        this.sys.COM = loc;
+        return loc;
+    }
+
+    public double checkSysRotInert() {
+        Vector2D effCOM = this.sys.COM;
+        double nInert = this.momentOfInertia + this.mass * this.location.add(effCOM.reverse()).dotProduct(this.location.add(effCOM.reverse()));
+
+        for (Node<GameObject> child : super.children) {
+            GameObject.EffectiveSystem ec = child.getData().sys;
+            Vector2D D = ec.COM.add(effCOM.reverse());
+            nInert += ec.rotationalInertia + ec.mass * D.dotProduct(D);
+        }
+        this.sys.rotationalInertia = nInert;
+        return nInert;
+    }
+
+    public void checkSelf() {
+        checkSysMass();
+        checkSysCOM();
+        checkSysRotInert();
+    }
+
+    public GameObject getRBAncestor() {
+        if (this.hasAttribute("RigidBody")) return this;
+        Node<GameObject> focus = this.getParent();
+        while (!focus.getData().getName().equals("Environment")) {
+            if (focus.getData().hasAttribute("RigidBody")) return focus.getData();
+        }
+        return null;
     }
 }
