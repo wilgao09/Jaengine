@@ -11,11 +11,19 @@ public class Block extends GameObject{
         m.setMesh("box",new double[]{width,height});
         RigidBody  rb = new RigidBody();
         Hitbox hb = new Hitbox("box", new double[]{width, height});
+        hb.setUnitVectorBorder(new Vector2D[]{
+            new Vector2D(0,-1),
+            new Vector2D(1,0),
+            new Vector2D(0,1),
+            new Vector2D(-1,0)
+        });
         super.addAttribute(m);
         super.addAttribute(rb);
+        super.addAttribute(hb);
 
         super.radius=Math.sqrt(width * width + height * height)/2;
-        System.out.println("RESOLVED RADIUS TO BE " + Math.sqrt(width * width + height * height)/2);
+        System.out.println("RADIUS " + super.radius);
+
     }
     public void applyDensity(double density) { //mass per square elngth
         

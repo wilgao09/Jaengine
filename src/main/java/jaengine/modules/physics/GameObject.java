@@ -149,12 +149,18 @@ public class GameObject extends Node<GameObject>{
     }
 
 
-    public boolean isIntersecting(GameObject o) {
+    public boolean isOverlapping(GameObject o) {
         // double dist = (o.location.add(this.location.reverse())).magnitude();
         // double required =  o.radius + this.radius;
         // System.out.println ("a distance of " + dist + "m; hit is " + required);
-        return (o.location.add(this.location.reverse())).magnitude() <= o.radius + this.radius;
+        double num1 = (this.getSysCOM().add(o.getSysCOM().reverse())).magnitude();
+        double num2 = o.getSysRadius() + this.getSysRadius();
+        // System.out.println("measured distance: " +num1);
+        // System.out.println("required dist:" + num2);
+        return num1 <= num2;
     }
+
+
 
     public double getMass() {
         return mass;
@@ -172,6 +178,7 @@ public class GameObject extends Node<GameObject>{
         private double mass = 1;
         private double rotationalInertia = 1;
         private Vector2D COM = new Vector2D(0,0);
+        private double radius = 1;
 
         public void step(Vector2D v) { COM = COM.add(v); }
     }
@@ -179,6 +186,7 @@ public class GameObject extends Node<GameObject>{
     public double getSysRotInert() {return sys.rotationalInertia;}
     //dont get COM; COM is only at some instant in time and is meaningless beteen frames; just recalculate it if necessary
     public Vector2D getSysCOM() {return sys.COM;}
+    public double getSysRadius() {return sys.radius;}
 
     public double checkSysMass() {
         double sum = this.mass;
@@ -213,10 +221,27 @@ public class GameObject extends Node<GameObject>{
         return nInert;
     }
 
+    public double checkSysRadius() {
+        //find the object w the furthest location from COM and the largest radius
+        //score by sum
+        double largest = this.radius;
+        for (Node<GameObject> child : super.children){
+            GameObject g = child.getData();
+            double dist = g.getSysCOM().add(this.getSysCOM().reverse()).magnitude() + g.checkSysRadius();
+            // System.out.println( g.getName() + " COM " + g.getSysCOM() + ", " + this.getName() + " COM " + this.getSysCOM());
+            // System.out.println("dist is " + (dist-g.getSysRadius()));
+            if (dist > largest) largest = dist;
+        }
+        this.sys.radius = largest;
+        System.out.println("radius found to be " + largest);
+        return largest;
+    }
+
     public void checkSelf() {
         checkSysMass();
         checkSysCOM();
         checkSysRotInert();
+        checkSysRadius();
     }
 
     public GameObject getRBAncestor() {
@@ -227,4 +252,38 @@ public class GameObject extends Node<GameObject>{
         }
         return null;
     }
+
+    public Vector2D[] getPoints() {
+        // System.out.println(this.location);
+        Vector2D[] pointList = ((Hitbox)this.getAttribute("Hitbox")).transformPoints(this.location, this.rotation.y());
+        return pointList;
+
+    }
+
+
+    /**\
+     * Precondition: the object is in an environment
+     */
+    public void applyForce(Vector2D f, Vector2D worldPoint) {
+        if (!this.hasAttribute("RigidBody")) {
+            GameObject a = this.getRBAncestor();
+            if (a != null) this.getRBAncestor().applyForce(f, worldPoint);
+        }
+        RigidBody rb = ((RigidBody)this.getAttribute("RigidBody"));
+        //at this point, COM should be computed and the object should not yet have moved
+        Vector2D radius = this.getSysCOM().add(worldPoint.reverse());
+        double intoCOMPercent = radius.dotProduct(f)/(radius.magnitude()*f.magnitude());
+        Vector2D intoCOM = f.scale(intoCOMPercent);
+        rb.addCOMForce(intoCOM);
+        rb.addTorque(f.add(intoCOM.reverse()));
+    }
+
+    //disp is based on the system COM
+    //this should work on the minumum required topmost object
+    // public void moveSystem(Vector2D disp, Vector2D angDisp){
+    //     //assume THIS has not MOVED yet
+    //     this.step(disp);
+    //     this.spin(angDisp);
+
+    // }
 }

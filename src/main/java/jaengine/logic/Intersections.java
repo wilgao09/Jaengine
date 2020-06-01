@@ -2,6 +2,7 @@ package jaengine.logic;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Vector;
 
 public class Intersections {
     public static Vector2D areIntersecting(Vector2D starta, Vector2D enda, Vector2D startb, Vector2D endb) {
@@ -9,7 +10,7 @@ public class Intersections {
         double dyb = endb.y()-startb.y();
         double dxa = enda.x()-starta.x();
         double dxb = endb.x()-startb.x();
-
+        // System.out.println(dya + " " + dyb + " " + dxa + " " + dxb);
         double specialy = starta.y()-startb.y();
         double specialx = startb.x()-starta.x();
 
@@ -18,21 +19,23 @@ public class Intersections {
         double tha = ( dxb * specialy + dyb * specialx ) / denom;
         double thb = ( dya * specialx + dxa * specialy ) / denom;
 
+        // System.out.println(tha + " " + thb);
         if (tha <= 1 && tha >= 0 && thb <= 1 && thb >= 0) {
-            return new Vector2D(starta.x() + dxa*tha, starta.y() + dya*tha); //this is the point of intersection
+            //misnomer variable names i guess
+            return new Vector2D(starta.x() + dxa*thb, starta.y() + dya*thb); //this is the point of intersection
         } else {
             return null;
         }
     }
 
     //given two closed loop shapes, do they intersect?
-    //if they do, return a vector where forces should be applied
-    public static Vector2D findCritPoints(Vector2D[] shape1, Vector2D[] shape2) {
+    //if they do, return DATA
+    public static Object[] findCritPoints(Vector2D[] shape1, Vector2D[] shape2) {
         // ArrayList<Vector2D> crit1 = new ArrayList<Vector2D>();
         // ArrayList<Vector2D> crit2 = new ArrayList<Vector2D>();
         Vector2D crit = new Vector2D(0,0);
-        HashMap<Vector2D,Integer> s1suspects = new HashMap<Vector2D,Integer>();
-        HashMap<Vector2D,Integer> s2suspects = new HashMap<Vector2D,Integer>();
+        HashMap<Integer,Integer> s1suspects = new HashMap<Integer,Integer>();
+        HashMap<Integer,Integer> s2suspects = new HashMap<Integer,Integer>();
         int additions = 0;
         for (int s1 = 0; s1 != shape1.length; s1++) {
             for (int s2 = 0; s2 != shape2.length; s2++) {
@@ -53,25 +56,37 @@ public class Intersections {
                 }
 
                 Vector2D point = areIntersecting(starta,enda, startb, endb);
+                // System.out.println(point);
                 if (point != null) {
                     crit.add(point);
                     additions++;
-                    if (s1suspects.containsKey(starta)) {
-                        s1suspects.put(starta,s1suspects.get(starta)+1);
+                    if (s1suspects.containsKey(s1)) {
+                        s1suspects.put(s1,s1suspects.get(s1)+1);
+                    } else {
+                        s1suspects.put(s1,1);
                     }
-                    if (s1suspects.containsKey(enda)) {
-                        s1suspects.put(enda,s1suspects.get(enda)+1);
-                    }
-                    if (s2suspects.containsKey(startb)) {
-                        s2suspects.put(startb,s2suspects.get(startb)+1);
-                    }
-                    if (s2suspects.containsKey(endb)) {
-                        s2suspects.put(endb,s2suspects.get(endb)+1);
+                    if (s2suspects.containsKey(s2)) {
+                        s2suspects.put(s2,s2suspects.get(s2)+1);
+                    } else {
+                        s2suspects.put(s2,1);
                     }
                 }
             }
         }
-        //THISIS WRONG AND NEEDS TO BE CHANGED
-        return crit.scale(1.0/additions); //returns average vector
+        if (additions == 0) return null;
+        return new Object[]{
+            crit.scale(1.0/additions),
+            s1suspects,
+            s2suspects
+        };
+    }
+
+    public static void main(String[] args){
+        Vector2D aI = areIntersecting(
+            new Vector2D(1,1), 
+            new Vector2D(-1,-1), 
+            new Vector2D(0,-1), 
+            new Vector2D(-1,0));
+        System.out.println(aI);
     }
 }

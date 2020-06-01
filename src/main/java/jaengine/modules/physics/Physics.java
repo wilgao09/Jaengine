@@ -100,49 +100,18 @@ public class Physics implements Messageable{
                     rb.addCOMForce(new Vector2D(0, n.getData().getSysMass() * 10));
 
 
+                    Vector2D[] result = updateObject(n.getData());  
+                    if (n.getData().hasAttribute("Mesh") && result != null)
+                        updates.put(n,result);
 
-                    //UPDATE POSITIONS BASED ON NET FORCE
-                    Vector2D velocityByForce = rb.getNetForce().scale(timeScale / (20.0 * n.getData().getSysMass())) ;
-                    rb.zeroForce();
-                    Vector2D rbVel = rb.getVelocity() ;
-                    rbVel = rbVel.add(velocityByForce);
-                    rb.setVelocity(rbVel);
-
-                    // //UPDATE ANGPOSITION BASED ON NET TORQUES
-                    Vector2D angVelByTorque = rb.getNetTorque().scale(timeScale/ (20 * n.getData().getSysRotInert()));
-                    rb.zeroTorque();
-                    Vector2D rbAngVel = rb.getAngVel();
-                    rbAngVel = rbAngVel.add(angVelByTorque);
-                    rb.setAngVel(rbAngVel);
-
-                    //theres a lot of interesting stuff happening here
-                    //new rule: the rigidbody applies to itself AND the system of NONRBS that are its children and not of any other rigidbodies
-
-
-                    if (rbVel.magnitude() > .1 || rbAngVel.magnitude() > .1) {
-                        // System.out.println ("velocity " + rbVel);
-                        Vector2D angDisp = rbAngVel.scale(timeScale/20.0);
-                        GameObject curr = n.getData();
-                        Vector2D cCom = curr.checkSysCOM();
-                        pushMessage(hub, new Message(503,new Object[]{cCom.x(), cCom.y(),6}));
-                        Vector2D dispFromCOM = curr.location.add(cCom.reverse());
-                        Vector2D dispByRotation = dispFromCOM.rotate(angDisp.y()).add(dispFromCOM.reverse());
-                        Vector2D displacement = rbVel.scale(timeScale/ 20.0).add(dispByRotation);
-
-
-                        
-                        if (n.getData().hasAttribute("Mesh")) 
-                            updates.put(n,new Vector2D[]{displacement, angDisp});
-
-                        // n.getData().step(displacement);
-                        // n.getData().spin(angDisp);
-                    }
 
 
                 } else {
-                    if (updates.containsKey(n.getParent())) {
+                    GameObject ancestor = n.getData().getRBAncestor();
+                    if (updates.containsKey(ancestor)) {
+                        
                         Vector2D[] pUpdates = updates.get(n.getParent());
-                        Vector2D dispFromCenter = n.getData().location.add(n.getParent().getData().location.reverse()); //check here if slow
+                        Vector2D dispFromCenter = n.getData().location.add(ancestor.location.reverse()); //check here if slow
                         Vector2D dispByAngDisp = dispFromCenter.rotate(pUpdates[1].y()).add(dispFromCenter.reverse());
                         updates.put(n, new Vector2D[]{pUpdates[0].add(dispByAngDisp),pUpdates[1]});
 
@@ -159,7 +128,7 @@ public class Physics implements Messageable{
         tick.func.f(objectTree);
 
         //correct collisions (this is quite the daunting physics problem)
-        tick.func = (Object o) -> {
+        tick.func = (Object o) -> { //note that this should ONLY be run on the environment and NEVER recursively 
             
             GameObject focus;
             try {
@@ -170,8 +139,39 @@ public class Physics implements Messageable{
             ArrayList<Node<GameObject>> childs = focus.getChildren();
             for (Node<GameObject> n : childs) {
                 for (Node<GameObject> c : childs) {
-                    if (n != c && n.getData().isIntersecting(c.getData())) {
-                        //require further investigation
+                    if (n != c && n.getData().isOverlapping(c.getData())) {
+                        //two objects in the environment are near each other (surface level 1)
+                        //at least one of two parties is of type rigidbofy
+
+                        GameObject s1 = n.getData();
+                        GameObject s2 = c.getData();
+                        if ( (s1.hasAttribute("Hitbox") && s2.hasAttribute("Hitbox") )) {
+                            Object[] data = Intersections.findCritPoints(s1.getPoints(), s2.getPoints());
+                            if (data != null) {
+                                Vector2D velA = new Vector2D(0,0);
+                                if (s1.hasAttribute("Rigidbody")){
+                                    velA = ((RigidBody)s1.getAttribute("RigidBody")).getVelocity();
+                                }
+                                Vector2D velB = new Vector2D(0,0);
+                                if (s2.hasAttribute("RigidBody")){
+                                    velB = ((RigidBody)s1.getAttribute("RigidBody")).getVelocity();
+                                }
+                                double impulseMag = Collisions.findImpulseMag(s1.getMass(), velA, s2.getMass(), velB, 1);
+
+                                Vector2D s1Direction = Collisions.findDirection(((HashMap<Integer,Integer>)data[1]), ((Hitbox)s1.getAttribute("Hitbox"))).rotate(s1.rotation.y());
+                                Vector2D s2Direction = Collisions.findDirection(((HashMap<Integer,Integer>)data[2]), ((Hitbox)s2.getAttribute("Hitbox"))).rotate(s2.rotation.y());
+
+                                Vector2D intoS1 = s2Direction.add(s1Direction.reverse()).scale(impulseMag/22);
+                                Vector2D intoS2 = intoS1.reverse();
+
+                                Vector2D worldPoint = (Vector2D)data[0];
+                                s1.applyForce(intoS1, worldPoint);
+                                s2.applyForce(intoS2, worldPoint);
+                                // System.out.println("applying force: " + impulseMag);
+                            } else {
+                                System.out.println("NULLED INFO");
+                            }
+                        }
                     }
                 }
             }
@@ -219,6 +219,53 @@ public class Physics implements Messageable{
 
     public Environment getEnviron() {
         return this.objectTree;
+    }
+
+    /**
+     * Precondition: the object is a rigidbody
+     * @param g
+     * @return
+     */
+    public Vector2D[] updateObject(GameObject g){
+        RigidBody rb = ((RigidBody)g.getAttribute("RigidBody"));
+
+        //UPDATE POSITIONS BASED ON NET FORCE
+        Vector2D velocityByForce = rb.getNetForce().scale(timeScale / (20.0 * g.getSysMass())) ;
+
+        Vector2D rbVel = rb.getVelocity() ;
+        // if (Double.isNaN(velocityByForce.magnitude())) {
+        //     Vector2D test = rb.getNetForce();
+        //     System.out.println("what the fuck");
+        // } else {
+        //     System.out.println(velocityByForce.magnitude());
+        // }
+        rbVel = rbVel.add(velocityByForce);
+        rb.setVelocity(rbVel);
+        rb.zeroForce();
+
+        // //UPDATE ANGPOSITION BASED ON NET TORQUES
+        Vector2D angVelByTorque = rb.getNetTorque().scale(timeScale/ (20 * g.getSysRotInert()));
+        rb.zeroTorque();
+        Vector2D rbAngVel = rb.getAngVel();
+        rbAngVel = rbAngVel.add(angVelByTorque);
+        rb.setAngVel(rbAngVel);
+
+        //theres a lot of interesting stuff happening here
+        //new rule: the rigidbody applies to itself AND the system of NONRBS that are its children and not of any other rigidbodies
+
+
+        if (rbVel.magnitude() > .1 || rbAngVel.magnitude() > .1) {
+            // System.out.println ("velocity " + rbVel);
+            Vector2D angDisp = rbAngVel.scale(timeScale/20.0);
+            Vector2D cCom = g.checkSysCOM();
+            pushMessage(hub, new Message(503,new Object[]{cCom.x(), cCom.y(),6}));
+            Vector2D dispFromCOM = g.location.add(cCom.reverse());
+            Vector2D dispByRotation = dispFromCOM.rotate(angDisp.y()).add(dispFromCOM.reverse());
+            Vector2D displacement = rbVel.scale(timeScale/ 20.0).add(dispByRotation);
+
+            return new Vector2D[]{displacement,angDisp};
+        }
+        return null;
     }
 }
 
