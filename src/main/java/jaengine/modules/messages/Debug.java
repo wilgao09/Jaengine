@@ -4,11 +4,16 @@ import java.time.LocalDateTime;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.BufferedWriter;
-
+/**
+ * A static class that allows for the easy writing of log files.
+ */
 public class Debug { //everything gonna be static
     private static String startTime; //this is here because i cant get final to work the way i want it to
     private static boolean initialized = false;
     private static BufferedWriter spit;
+    /**
+     * Initialize the debugging tool
+     */
     public static boolean init() {
         if (!Debug.initialized) {
             LocalDateTime now = LocalDateTime.now();
@@ -26,7 +31,10 @@ public class Debug { //everything gonna be static
             return false;
         }
     }
-
+    /**
+     * Append a new message to the log file; time stamps included automatically
+     * @param s teh line to append
+     */
     public static void log(String s) {
         LocalDateTime now = LocalDateTime.now();
         String timeNow = "[" + now.getHour() + ":" + now.getMinute() + ":" + now.getSecond() + "]";
@@ -37,7 +45,9 @@ public class Debug { //everything gonna be static
             System.out.println("Failed write");
         }
     }
-
+    /**
+     * End the debugger
+     */
     public static void close() {
         try {
             spit.close();

@@ -4,7 +4,18 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Vector;
 
+/**
+ * A general MAth class dedicated to finding the intersection between two line segments or two clsoed loop shapes composed of line segments. 
+ */
 public class Intersections {
+    /**
+     * Determine, if two line segments intersect, where they intersect. All lines must be in reference to the same point.
+     * @param starta One end of first line segment 
+     * @param enda Other end of first line segment
+     * @param startb One end of second line segment
+     * @param endb Other end of second line segment
+     * @return A Vector2D that points to where they intersect, if they intersect. If they do not intersect, it returns null. The returned Vector2D uses the same reference point as the Vector2Ds that it was fed. 
+     */
     public static Vector2D areIntersecting(Vector2D starta, Vector2D enda, Vector2D startb, Vector2D endb) {
         double dya = enda.y()-starta.y();
         double dyb = endb.y()-startb.y();
@@ -30,6 +41,12 @@ public class Intersections {
 
     //given two closed loop shapes, do they intersect?
     //if they do, return DATA
+    /**
+     * Find the "critical points" if two closed loop shapes intersect. This has no reason to be called outside of the Physics module.
+     * @param shape1 An array of Vector2Ds; the lines are formed by reading one index and the index imemdiately after; the last index loops back to the first index. 
+     * @param shape2 A second shape
+     * @return If they intersect, return an Object array where index 0 refers to the average of the intersections, index 1 refers to a HashMap<integer,Integer> of lines involved in the intersection on shape1, and index 2 refers to a HashMap<Integer,Integer>  of liens invovled in the intersection on shape2
+     */
     public static Object[] findCritPoints(Vector2D[] shape1, Vector2D[] shape2) {
         // ArrayList<Vector2D> crit1 = new ArrayList<Vector2D>();
         // ArrayList<Vector2D> crit2 = new ArrayList<Vector2D>();

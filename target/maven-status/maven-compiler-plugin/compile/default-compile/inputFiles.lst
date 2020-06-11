@@ -7,6 +7,7 @@
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/logic/Recursor.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/modules/MockGameLogic.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/modules/input/Input.java
+/home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/logic/FastTrig.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/modules/messages/MessageHub.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/physics/Block.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/App.java
@@ -15,12 +16,15 @@
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/modules/graphics/ShapeBuilder.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/logic/ZeroArgFuncWrapper.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/modules/graphics/Graphics.java
+/home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/logic/Intersections.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/modules/physics/Physics.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/modules/physics/GameObject.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/modules/graphics/Map.java
+/home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/modules/physics/Material.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/logic/DataHolder.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/logic/Vector2D.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/core/BlockDEPRECATED.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/modules/physics/Environment.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/modules/physics/Hitbox.java
 /home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/modules/physics/RigidBody.java
+/home/theffabot/GitProjects/JavaFinal/src/main/java/jaengine/modules/physics/Collisions.java

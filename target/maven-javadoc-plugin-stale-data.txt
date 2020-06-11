@@ -1,0 +1,93 @@
+/usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc
+@options
+@packages
+@argfile
+-classpath
+'/home/theffabot/.m2/repository/org/openjfx/javafx/14/javafx-14.pom:/home/theffabot/.m2/repository/org/openjfx/javafx-controls/14/javafx-controls-14.jar:/home/theffabot/.m2/repository/org/openjfx/javafx-controls/14/javafx-controls-14-linux.jar:/home/theffabot/.m2/repository/org/openjfx/javafx-base/14/javafx-base-14.jar:/home/theffabot/.m2/repository/org/openjfx/javafx-base/14/javafx-base-14-linux.jar:/home/theffabot/.m2/repository/org/openjfx/javafx-graphics/14/javafx-graphics-14.jar:/home/theffabot/.m2/repository/org/openjfx/javafx-graphics/14/javafx-graphics-14-linux.jar:/home/theffabot/.m2/repository/org/openjfx/javafx-media/14/javafx-media-14.jar:/home/theffabot/.m2/repository/org/openjfx/javafx-media/14/javafx-media-14-linux.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/theffabot/GitProjects/JavaFinal/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2020. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/theffabot/GitProjects/JavaFinal/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'jaengine 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/theffabot/GitProjects/JavaFinal/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'jaengine 1.0-SNAPSHOT API'
+jaengine.core
+jaengine.core
+jaengine.physics
+jaengine.modules.physics
+jaengine.modules.physics
+jaengine.modules.physics
+jaengine.modules.physics
+jaengine.modules.physics
+jaengine.modules.physics
+jaengine.modules.physics
+jaengine.modules.physics
+jaengine.modules.physics
+jaengine.modules
+jaengine.modules.messages
+jaengine.modules.messages
+jaengine.modules.messages
+jaengine.modules.messages
+jaengine.modules.input
+jaengine.modules.graphics
+jaengine.modules.graphics
+jaengine.modules.graphics
+jaengine.logic
+jaengine.logic
+jaengine.logic
+jaengine.logic
+jaengine.logic
+jaengine.logic
+jaengine.logic
+jaengine.logic
+'/home/theffabot/GitProjects/JavaFinal/src/main/java/App.java'
+/home/theffabot/.m2/repository/org/openjfx/javafx/14/javafx-14.pom = 1584756740806
+/home/theffabot/.m2/repository/org/openjfx/javafx-controls/14/javafx-controls-14.jar = 1584756741670
+/home/theffabot/.m2/repository/org/openjfx/javafx-controls/14/javafx-controls-14-linux.jar = 1584756743370
+/home/theffabot/.m2/repository/org/openjfx/javafx-base/14/javafx-base-14.jar = 1584756741882
+/home/theffabot/.m2/repository/org/openjfx/javafx-base/14/javafx-base-14-linux.jar = 1584756742926
+/home/theffabot/.m2/repository/org/openjfx/javafx-graphics/14/javafx-graphics-14.jar = 1584756741670
+/home/theffabot/.m2/repository/org/openjfx/javafx-graphics/14/javafx-graphics-14-linux.jar = 1584756743610
+/home/theffabot/.m2/repository/org/openjfx/javafx-media/14/javafx-media-14.jar = 1585365406970
+/home/theffabot/.m2/repository/org/openjfx/javafx-media/14/javafx-media-14-linux.jar = 1585365522461
+/home/theffabot/GitProjects/JavaFinal/src/main/java/App.java = 1591898137916
+/home/theffabot/GitProjects/JavaFinal/src/main/java = 1591897590384
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/overview-summary.html = 1591900169427
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/package-tree.html = 1591900169271
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/index-all.html = 1591900169407
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/constant-values.html = 1591900169311
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/search.js = 1591900169431
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/help-doc.html = 1591900169427
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/package-summary.html = 1591900169267
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/package-use.html = 1591900169371
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/package-search-index.js = 1591900169403
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/type-search-index.zip = 1591900169403
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/element-list = 1591900169267
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/stylesheet.css = 1591900169427
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/overview-tree.html = 1591900169383
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/member-search-index.js = 1591900169407
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/script.js = 1591900169427
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/App.html = 1591900169015
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/allpackages-index.html = 1591900169415
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/deprecated-list.html = 1591900169419
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/type-search-index.js = 1591900169403
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/package-search-index.zip = 1591900169403
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/member-search-index.zip = 1591900169407
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/index.html = 1591900169423
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/allclasses-index.html = 1591900169415
+/home/theffabot/GitProjects/JavaFinal/target/site/apidocs/allclasses.html = 1591900169419

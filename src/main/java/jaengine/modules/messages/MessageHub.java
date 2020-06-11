@@ -4,27 +4,47 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import jaengine.logic.ZeroArgFuncWrapper;
 
+/**
+ * The MessageHub class creates MessageHubs. MessageHubs are centralized places where modules must be atached to in order to receive updates from other modules. 
+ */
 public class MessageHub implements Runnable{
     private ArrayList<Messageable> callingList = new ArrayList<Messageable>();
     private ArrayList<Message> messageStack = new ArrayList<Message> ();
 
     public static boolean endProgram = false;
 
-    private HashMap<Integer,ZeroArgFuncWrapper> listens = new HashMap<Integer, ZeroArgFuncWrapper>();
+    private HashMap<Integer,ZeroArgFuncWrapper> listens = new HashMap<Integer, ZeroArgFuncWrapper>(); //unused
+    /**
+     * Create a new MessageHub
+     */
     public MessageHub(){
         Debug.init(); //i dont trust it to target my debug, prob shouldve renamed it
         (new Thread(this,"MHUB")).start();
     }
-
+    /**
+     * Add a new member to this MessageHub
+     * @param n The member to add
+     */
     public void addMember(Messageable n) {
         callingList.add(n);
     }
+    /**
+     * Return he ArrayList of members on the calling lsit
+     * @return the members of this hub
+     */
     public ArrayList<Messageable> getMembers() {
         return callingList;
     }
+    /**
+     * Attach a message to this MessageHub; should only be used by the members
+     * @param m
+     */
     public void append(Message m) {
         this.messageStack.add(m);
     }
+    /**
+     * Sends the oldest message on the messageStack to all members
+     */
     public void mail() {
     
         Message msg = messageStack.remove(0);
@@ -43,6 +63,9 @@ public class MessageHub implements Runnable{
             Debug.log("Processed!");
         // }
     }
+    /**
+     * Contains the mailing loop
+     */
     public void run() {
         while (!MessageHub.endProgram) {
             while (messageStack.size() > 0) {

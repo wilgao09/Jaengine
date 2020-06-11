@@ -5,11 +5,16 @@ import jaengine.modules.input.*;
 import jaengine.modules.messages.*;
 import jaengine.modules.physics.*;
 
+/**
+ * LEGACY CODE; DOES NOT FUNCTION
+ */
 public class MockGameLogic {
     MessageHub central;
     // Graphics graphics;
     Input user;
-
+    /**
+     * Start the engine by initializing modules.
+     */
     public void engineStart() {
         central = new MessageHub();
         Debug.log("Initialized MessageHub");
@@ -23,7 +28,10 @@ public class MockGameLogic {
         // new Thread(central, "MHUB").start();
 
     }
-    
+    /**
+     * Test if modules can cooperate.
+     * @param args
+     */
     public static void main(String[] args) {
         MockGameLogic mock = new MockGameLogic();
         mock.engineStart();

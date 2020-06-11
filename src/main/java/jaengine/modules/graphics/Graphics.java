@@ -16,6 +16,9 @@ import javafx.concurrent.Task;
 
 
 //restrict this to one window
+/**
+ * This class connects to the MessageHub and is a JavaFX Application. Handles the rendering of objects on screen.
+ */
 public class Graphics extends Application implements Messageable{
     private Stage window;
     private static MessageHub lastHub;
@@ -25,8 +28,14 @@ public class Graphics extends Application implements Messageable{
     private jaengine.modules.graphics.Map objectMap;
 
     protected Group group;
-
-    public Graphics(){ hub = Graphics.lastHub; hub.addMember(this); };//not for human use
+    /**
+     * Meant to be used by JavaFX's reflector
+     */
+    public Graphics(){ hub = Graphics.lastHub; hub.addMember(this); };//not for human use.
+    /**
+     * Initialize the Graphics module
+     * @param m MessageHub to attach to
+     */
     public static void startGraphics(MessageHub m) {
         Graphics.lastHub = m;
         new Thread(() -> {
@@ -66,6 +75,12 @@ public class Graphics extends Application implements Messageable{
         // System.out.println("IGRAPH SHOULD HAVE STARTED");
         // Application.launch(new String[0]); //the usual message breaking is in start
     }
+    /**
+     * Reads a Message and acts based on it
+     * Can currently read codes 1100, 1501, 502, 503
+     * @param m Message to read
+     * 
+     */
     public void readMessage(Message m) {
         if (m == null) return;
         switch(m.code) {
@@ -112,7 +127,11 @@ public class Graphics extends Application implements Messageable{
         }
     }
 
-    //FX STUFF
+    /**
+     * The start stage for the JavaFX Application
+     * @param mainStage the main window to work in
+     */
+    @Override
     public void start(Stage mainStage) { 
         mainStage.setOnCloseRequest(event -> { //lambdaing like this works here ??
             MessageHub.endProgram = true;
@@ -127,6 +146,9 @@ public class Graphics extends Application implements Messageable{
         //platform dolater
         Task<Integer> messenger = new Task<Integer>() {
             @Override
+            /**
+             * Contains the message reading loop
+             */
             protected Integer call() {
                 while (!MessageHub.endProgram) {
                     //jesus fking christ

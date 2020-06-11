@@ -10,12 +10,16 @@ import javafx.scene.input.KeyEvent;
 // import javafx.scene.input.KeyCode;
 
 /**
- * Bad
+ * The Input class keeps track of the keypresses and keyreleases made by the user while the javaFX application is in focus. 
  */
 public class Input implements Messageable {
     private MessageHub hub;
     private ArrayList<Message> messages = new ArrayList<Message>();
     private HashMap<String, Long> keyPresses = new HashMap<String, Long>();
+    /**
+     * Initialize a new Input module
+     * @param m the MessageHub to attach to
+     */
     public Input(MessageHub m) {
         hub = m;
         hub.addMember(this);
@@ -30,6 +34,9 @@ public class Input implements Messageable {
     public Message getNextMessage() {
         return messages.remove(0);
     }
+    /**
+     * Runs the message reading loop. A part of the Runnable interface. 
+     */
     public void run() {
         while (!MessageHub.endProgram) {
             while (this.messages.size() > 0) {
@@ -47,6 +54,10 @@ public class Input implements Messageable {
             }
         }
     }
+    /**
+     * Reads messages. Currently accepts 101
+     * @param m the message to be read
+     */
     public void readMessage(Message m) {
         switch (m.code) {
             case (101):
@@ -55,7 +66,10 @@ public class Input implements Messageable {
         }
     }
 
-
+    /**
+     * Attach listeners to a scene
+     * @param nScene the scene to attach listeners to
+     */
     public void sceneListen(Scene nScene) {
         nScene.setOnKeyPressed(new EventHandler<KeyEvent>() {
             @Override

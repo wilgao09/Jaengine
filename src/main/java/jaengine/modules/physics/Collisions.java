@@ -4,8 +4,22 @@ import java.util.HashMap;
 
 import jaengine.logic.Vector2D;
 
+/**
+ * A static class that determiens the direction and the magnitude of a collision force
+ */
 public class Collisions {
     //this class is just static methods for insane math
+    /**
+     * Determine the magnitude of the impulse in a collision.  ALL CREDIT FOR THIS FORMULA GOES TO https://gamedevelopment.tutsplus.com/tutorials/how-to-create-a-custom-2d-physics-engine-the-basics-and-impulse-resolution--gamedev-6331
+     * None of my formulas worked nearly as well as this one
+     * @param massA the Mass of the first object
+     * @param velA the velocity of the first object
+     * @param massB the mass of the second object
+     * @param velB the velocity of the second object
+     * @param bNorm the normal direction to be used in the collision from the perspective of B. This is equivalent to the normal force from A's perspective reversed.
+     * @param res the coefficient of restitution between teh two objects
+     * @return the magnitude of the collision
+     */
     public static double findImpulse(double massA, Vector2D velA, double massB, Vector2D velB, Vector2D bNorm, double res) {
 
         //try number four
@@ -47,7 +61,12 @@ public class Collisions {
         // double scale = -(1+res)/(massA + massB);
         // return velB.add(velA.reverse()).scale(scale);
     }
-
+    /**
+     * Determine the direction to apply the force in. Parameters must refer to the same object in question
+     * @param lines the lines involved in the collision
+     * @param hb the hitbox of the object
+     * @return a vector of magnitude 1 that determiens the direction to apply the force in
+     */
     public static Vector2D findDirection(HashMap<Integer,Integer> lines, Hitbox hb) {
         Vector2D largest = new Vector2D(0,0); //notactually largest, more like the mode
         int freq = -1;

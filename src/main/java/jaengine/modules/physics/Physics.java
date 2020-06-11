@@ -5,6 +5,9 @@ import jaengine.logic.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+/**
+ * Runs physics oeprations and communicates dispalcements and rotations to MessageHub
+ */
 public class Physics implements Messageable{
     private MessageHub hub;
     private ArrayList<Message> messages = new ArrayList<Message>();
@@ -12,6 +15,10 @@ public class Physics implements Messageable{
     private Environment objectTree;
 
     private double timeScale = 1; //ratio of simulation time to real time
+    /**
+     * Create a new Physics module
+     * @param m the MessageHub to attach to
+     */
     public Physics(MessageHub m) {
         hub = m;
         hub.addMember(this);
@@ -26,6 +33,9 @@ public class Physics implements Messageable{
     public Message getNextMessage() {
         return messages.remove(0);
     }
+    /**
+     * contains the message reading loop; not for use
+     */
     public void run() {
         // pushMessage(hub, new Message(300, new Object[]{objectTree})); //initial send;
         while (!MessageHub.endProgram) {
@@ -48,6 +58,10 @@ public class Physics implements Messageable{
             }
         }
     }
+    /**
+     * Reads messages; currently only supports codes 1501 and 1503
+     * @param m the message to read
+     */
     public void readMessage(Message m) {
         switch(m.code) {
             case(1501):
@@ -58,7 +72,11 @@ public class Physics implements Messageable{
                 break;
         }
     }
-
+    /**
+     * Puts an object as a child to this Physics module's Environment
+     * @param o the object to enter the envionment
+     * @return a boolena describing its success in entering
+     */
     public boolean addToEnvironment(GameObject o) {
         //if it already has a parent, ignore it because it was intended for graphics
         if (o.getParent() != null) return false;
@@ -78,6 +96,14 @@ public class Physics implements Messageable{
     // public static ArrayList<GameObject> visible = new ArrayList<GameObject>();
     // public static ArrayList<GameObject.Hitbox> collidable = new ArrayList<GameObject.Hitbox>(); 
     // public static ArrayList<GameObject.RigidBody> moveable = new ArrayList<GameObject.RigidBody>();
+    /**
+     * To put very very very very very very simply: applies a physics tick.
+     * It starts by creating a HashMap of Node<GameObject> and Vector2D[], where the Vector2D[] refers to the dispalcement and rotation of the Node<GameObject>
+     * It applies natural forces (like gravity), resolves all forces, then applies collision forces for the next tick to resolve
+     * Resolved forces are computed into displacements and rotations and added to the HashMap with their respective Node<GameObject>
+     * at the end, the HashMap is looped through and everything is sent to the MesageHub
+     * 
+     */
     public void runPhysicsTick() {
         // ArrayList<GameObject> needToBeRedrawn = new ArrayList<GameObject>();
         // ArrayList<Vector2D> translations = new ArrayList<Vector2D>();
@@ -88,6 +114,10 @@ public class Physics implements Messageable{
         //resolve new location
 
         Recursor<OneArgFuncWrapper> tick = new Recursor<OneArgFuncWrapper>();
+        /**
+         * Apply gravity to all rigidbodied children on GameObject o; this is a RECURSIVE application of GRAVITY
+         * @param o the object to observe
+         */
         tick.func = (Object o) -> { //this is suuper convoluted here. it's a class holding a functional interface, then writing the function for that interface.
             GameObject focus;
             try {
@@ -133,6 +163,9 @@ public class Physics implements Messageable{
         tick.func.f(objectTree);
 
         //correct collisions (this is quite the daunting physics problem)
+        /**
+         * Fix collisions. I have no idea why or how this works, but it does
+         */
         tick.func = (Object o) -> { //note that this should ONLY be run on the environment and NEVER recursively 
             
             GameObject focus;
@@ -211,6 +244,11 @@ public class Physics implements Messageable{
 
     //for now, this is meant to NOT BE USED BY THE PHYSICS TICK METHOD
     //THIS IS FOR PHYSICS BREAKING MOVEMENT
+    /**
+     * Dispalce an object and go agaisnt the laws fo physics
+     * @param g teh Object to move
+     * @param v the amount to displace by
+     */
     public void displaceObject(GameObject g, Vector2D v) {
         //this is a mini physics tick
         // if (g.hasAttribute("Hitbox")) {
@@ -230,15 +268,18 @@ public class Physics implements Messageable{
     }
 
 
-
+    /**
+     * Return this Environment
+     * @return the Environment
+     */
     public Environment getEnviron() {
         return this.objectTree;
     }
 
     /**
      * Precondition: the object is a rigidbody
-     * @param g
-     * @return
+     * @param g the object with unresolved forces
+     * @return a length 2 Vector2D[] that describes [0]: the translation vector and [1]: the rotation vector
      */
     public Vector2D[] updateObject(GameObject g){
         RigidBody rb = ((RigidBody)g.getAttribute("RigidBody"));

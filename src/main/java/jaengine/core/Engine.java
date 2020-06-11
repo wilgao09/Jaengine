@@ -11,7 +11,7 @@ import javafx.event.EventHandler;
 
 
 /**
- * THIS MUST BE CHANGED FOR IT IS NOT FLEXIBLE ENOUGH
+ * The Engine class simplifies actions that would normally require calling an sending multiple messages to multiple modules. It's primary purpose is to aadd objects to the Environment and force displace them.
  */
 public class Engine {
 
@@ -24,15 +24,30 @@ public class Engine {
     private double screenY = 600;
 
     private boolean isRunning = false;
+    /**
+     * Construct a new Engine. Only one should be created per session.
+     */
     public Engine() {
 
+         
     }
+    /**
+     * Set the screen width to some pixel width
+     * @param x the width of the desired screen
+     */
     public void setScreenWidth(double x) {
         screenX = x;
     }
+    /**
+     * Set the screen height to some pixel width
+     * @param y the height of the desired screen
+     */
     public void setScreenHeight(double y) {
         screenY = y;
     }
+    /**
+     * Start the engine by initializing all modules; takes at least 1.5s to start all threads and attach them to teh MessageHub.
+     */
     public void startEngine() {
         if (!isRunning) {
             isRunning = true;
@@ -67,7 +82,10 @@ public class Engine {
         }
     }
 
-    //these dont really belong here; i will make a physics upper odule later for these
+    /**
+     * Add a user defined object to the envionment that this engine created.
+     * @param n A GameObject, or some descendent of a GameObject. Must have all desired children and attributes before entering Envionment.
+     */
     public void addToEnvironment(GameObject n) {
         
         Recursor<OneArgFuncWrapper> init = new Recursor<OneArgFuncWrapper>();
@@ -86,12 +104,20 @@ public class Engine {
         init.func.f(n);
     }
 
+    /**
+     * Add an array of Gameobjects and all of their descendents to the Environment
+     * @param go The GameObject to add
+     */
     public void addToEnvironment(GameObject[] go) {
         for (GameObject g :go ) {
             addToEnvironment(g);
         }
     }
-
+    /**
+     * Displace a GameObject and all of its descendents with a displacement of v
+     * @param n The GameoBject to displace
+     * @param v Displacement vector to dispalce by
+     */
     public void forceDisplace(GameObject n, Vector2D v) {
         hub.append(new Message(1503, new Object[]{n, v}));
     }
@@ -99,7 +125,9 @@ public class Engine {
 
 
 
-
+    /**
+     * Debug the Envionment by printing the tree.
+     */
     public void printTree() {
         System.out.println(physics.getEnviron().toString());
     }

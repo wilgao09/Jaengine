@@ -3,8 +3,17 @@ package jaengine.physics;
 import jaengine.logic.Vector2D;
 import jaengine.modules.physics.*;
 
+/**
+ * A user-friendly, easy to produce, block
+ */
 public class Block extends GameObject{
     // private boolean canFall = false;
+    /**
+     * Create a new block
+     * @param myName the name of the block
+     * @param width the width of the block
+     * @param height the height of the block
+     */
     public Block(String myName,  double width, double height) {
         super(myName);
         Mesh m = new Mesh();
@@ -25,7 +34,7 @@ public class Block extends GameObject{
         System.out.println("RADIUS " + super.radius);
 
     }
-    public void applyDensity(double density) { //mass per square elngth
+    // public void applyDensity(double density) { //mass per square elngth
         
-    }
+    // }
 }
