@@ -1,34 +1,37 @@
 
 
-import java.util.Vector;
 
 import jaengine.core.Engine;
 import jaengine.physics.*;
 import jaengine.logic.*;
 public class App 
 {
+    /**
+     * The top-most set of commands
+     * @param args Not interpreted
+     */
     public static void main( String[] args )
     {
         Engine gEngine = new Engine();
 
 
-        //THIS IS A CHECK ON TWO OBJECT FLAT COLLISION
-        Block lFlier = new Block("left_flier", 30, 30);
-        Block rFlier = new Block("right_flier", 30, 30);
-        gEngine.startEngine();
+        // //THIS IS A CHECK ON TWO OBJECT FLAT COLLISION
+        // Block lFlier = new Block("left_flier", 30, 30);
+        // Block rFlier = new Block("right_flier", 30, 30);
+        // gEngine.startEngine();
 
-        gEngine.addToEnvironment(new Block[]{lFlier, rFlier});
+        // gEngine.addToEnvironment(new Block[]{lFlier, rFlier});
 
-        gEngine.forceDisplace(lFlier, new Vector2D(100,100));
-        gEngine.forceDisplace(rFlier, new Vector2D(500,100));
+        // gEngine.forceDisplace(lFlier, new Vector2D(100,100));
+        // gEngine.forceDisplace(rFlier, new Vector2D(500,100));
 
-        lFlier.checkSelf();
-        rFlier.checkSelf();
+        // lFlier.checkSelf();
+        // rFlier.checkSelf();
 
-        lFlier.setPhysics("velocity", new Object[]{new Vector2D(40, 0)});
-        lFlier.setPhysics("angular_velocity", new Object[]{new Vector2D(0,3.14)});
-        rFlier.setPhysics("velocity", new Object[]{new Vector2D(-40, 0)});
-        rFlier.setPhysics("angular_velocity", new Object[]{new Vector2D(0,3.14)});
+        // lFlier.setPhysics("velocity", new Object[]{new Vector2D(40, 0)});
+        // lFlier.setPhysics("angular_velocity", new Object[]{new Vector2D(0,3.14)});
+        // rFlier.setPhysics("velocity", new Object[]{new Vector2D(-40, 0)});
+        // rFlier.setPhysics("angular_velocity", new Object[]{new Vector2D(0,3.14)});
 
         //THIS IS A CHECK ON TWO OBJECT SPIN
         // Block left = new Block("left", 40, 20);
@@ -80,27 +83,27 @@ public class App
 
         //THIS IS A CHECK ON SINGLE OBJECT SPIN
 
-        // Block b = new Block("firstBlock",20, 20);
-        // Block c = new Block("attach",10,50);
-        // c.deactivateAttribute("RigidBody");
-        // b.addChild(c);
-        // gEngine.startEngine();
+        Block b = new Block("firstBlock",20, 20);
+        Block c = new Block("attach",10,50);
+        c.deactivateAttribute("RigidBody");
+        b.addChild(c);
+        gEngine.startEngine();
         
-        // gEngine.addToEnvironment(new Block[]{b});
-        // gEngine.forceDisplace(c, new Vector2D(25,5));
+        gEngine.addToEnvironment(new Block[]{b});
+        gEngine.forceDisplace(c, new Vector2D(25,5));
        
-        // gEngine.forceDisplace(b, new Vector2D(100,400));
+        gEngine.forceDisplace(b, new Vector2D(100,400));
         
-        // b.setPhysics("velocity",new Object[]{new Vector2D(20,-70)});
-        // b.setPhysics("angular_velocity", new Object[]{new Vector2D(0,3.1415)});
+        b.setPhysics("velocity",new Object[]{new Vector2D(20,-70)});
+        b.setPhysics("angular_velocity", new Object[]{new Vector2D(0,3.1415)});
 
-        // b.checkSelf();
+        b.checkSelf();
+        c.checkSelf();
 
-
-        // Block collider = new Block("interceptor",40,40);
-        // gEngine.addToEnvironment(collider);
-        // gEngine.forceDisplace(collider, new Vector2D(230, 0));
-
+        Block collider = new Block("interceptor",40,40);
+        gEngine.addToEnvironment(collider);
+        gEngine.forceDisplace(collider, new Vector2D(230, 0));
+        collider.checkSelf();
         try {
             Thread.sleep(2000);
             gEngine.printTree();

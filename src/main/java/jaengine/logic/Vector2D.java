@@ -40,7 +40,7 @@ public class Vector2D {
     }
     //when do i use this?
     public double dotProduct(Vector2D v) {
-        return ((this.x + v.x())*(this.y * v.y()));
+        return ((this.x * v.x())+(this.y * v.y()));
     }
 
     //2d physics; its a corss product, so in theory, the vector should have three dimensions

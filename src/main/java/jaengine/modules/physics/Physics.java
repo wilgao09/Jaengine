@@ -31,7 +31,11 @@ public class Physics implements Messageable{
         while (!MessageHub.endProgram) {
             
             while (this.messages.size() > 0) {
-                readNextMessage();
+                try {
+                    readNextMessage();
+                } catch (NullPointerException e) {
+                    System.out.println("Physics tried to read a nonexistent message");
+                }
             }
             try {
 
@@ -97,6 +101,7 @@ public class Physics implements Messageable{
                 if (n.getData().hasAttribute("RigidBody")) {
                     RigidBody rb = (RigidBody) n.getData().getAttribute("RigidBody");
                     //apply forces
+                    // System.out.println("BEFORE: " + rb.getNetForce());
                     rb.addCOMForce(new Vector2D(0, n.getData().getSysMass() * 10));
 
 
@@ -156,17 +161,26 @@ public class Physics implements Messageable{
                                 if (s2.hasAttribute("RigidBody")){
                                     velB = ((RigidBody)s1.getAttribute("RigidBody")).getVelocity();
                                 }
-                                double impulseMag = Collisions.findImpulseMag(s1.getMass(), velA, s2.getMass(), velB, 1);
+                                //Vector2D impulse = Collisions.findImpulse(s1.getMass(), velA, s2.getMass(), velB, 1);
+                                
 
                                 Vector2D s1Direction = Collisions.findDirection(((HashMap<Integer,Integer>)data[1]), ((Hitbox)s1.getAttribute("Hitbox"))).rotate(s1.rotation.y());
-                                Vector2D s2Direction = Collisions.findDirection(((HashMap<Integer,Integer>)data[2]), ((Hitbox)s2.getAttribute("Hitbox"))).rotate(s2.rotation.y());
-
-                                Vector2D intoS1 = s2Direction.add(s1Direction.reverse()).scale(impulseMag/22);
-                                Vector2D intoS2 = intoS1.reverse();
+                                //Vector2D s2Direction = Collisions.findDirection(((HashMap<Integer,Integer>)data[2]), ((Hitbox)s2.getAttribute("Hitbox"))).rotate(s2.rotation.y());
+                                Vector2D s2Direction = s1Direction.reverse();
+                                //Vector2D s1Direction = new Vector2D(1,0);
+                                //Vector2D s2Direction = new Vector2D(-1,0);
+                                double impulseMag = Collisions.findImpulse(s1.getMass(), velA, s2.getMass(), velB,s1Direction, 1);
+                                System.out.println("IMPUSLE MAG " + impulseMag);
+                                Vector2D intoS2 = s2Direction.scale(impulseMag*20);
+                                Vector2D intoS1 = s1Direction.scale(impulseMag*20);
+                                System.out.println("s1 is " + s1 + "; s2 is " + s2);
+                                System.out.println("into s1 " + intoS1 + " into s2 " + intoS2);
 
                                 Vector2D worldPoint = (Vector2D)data[0];
-                                s1.applyForce(intoS1, worldPoint);
-                                s2.applyForce(intoS2, worldPoint);
+                                //System.out.println("s1Direc " + intoS1 + " s2Direc " + intoS2 + " wp " + worldPoint);
+                                //pushMessage(hub, new Message(503,new Object[]{worldPoint.x(), worldPoint.y(), 3}));
+                                s1.applyForce(intoS2, worldPoint);
+                                s2.applyForce(intoS1, worldPoint);
                                 // System.out.println("applying force: " + impulseMag);
                             } else {
                                 System.out.println("NULLED INFO");
@@ -228,6 +242,7 @@ public class Physics implements Messageable{
      */
     public Vector2D[] updateObject(GameObject g){
         RigidBody rb = ((RigidBody)g.getAttribute("RigidBody"));
+        System.out.println("working on force " + rb.getNetForce());
 
         //UPDATE POSITIONS BASED ON NET FORCE
         Vector2D velocityByForce = rb.getNetForce().scale(timeScale / (20.0 * g.getSysMass())) ;

@@ -265,17 +265,23 @@ public class GameObject extends Node<GameObject>{
      * Precondition: the object is in an environment
      */
     public void applyForce(Vector2D f, Vector2D worldPoint) {
+        if (f.dotProduct(f) == 0) return;
         if (!this.hasAttribute("RigidBody")) {
             GameObject a = this.getRBAncestor();
             if (a != null) this.getRBAncestor().applyForce(f, worldPoint);
         }
         RigidBody rb = ((RigidBody)this.getAttribute("RigidBody"));
         //at this point, COM should be computed and the object should not yet have moved
-        Vector2D radius = this.getSysCOM().add(worldPoint.reverse());
-        double intoCOMPercent = radius.dotProduct(f)/(radius.magnitude()*f.magnitude());
+        Vector2D radius = this.getSysCOM();
+        //System.out.println(radius);
+        double dott = radius.dotProduct(f);
+        double intoCOMPercent = Math.abs(radius.dotProduct(f)/(radius.magnitude()*f.magnitude()));
+        //System.out.println("this percent into com: " + intoCOMPercent);
         Vector2D intoCOM = f.scale(intoCOMPercent);
         rb.addCOMForce(intoCOM);
         rb.addTorque(f.add(intoCOM.reverse()));
+        //added forces
+        //System.out.println(rb.getNetForce());
     }
 
     //disp is based on the system COM

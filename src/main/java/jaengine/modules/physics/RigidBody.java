@@ -20,12 +20,18 @@ public class RigidBody extends GameAttribute{
         this.velocity = v;
     }
     public void addCOMForce(Vector2D force) {
-        this.forces = this.forces.add(force);
+        if (force.x() == 0 && force.y() == 0) return;
+        //System.out.println("addimh " + this.forces + " n " + force);
+        Vector2D newForce = this.forces.add(force);
+
+        this.forces = newForce;
+
     }
     public Vector2D getNetForce() {
-        return forces;
+        return this.forces;
     }
     public void zeroForce() {
+        Vector2D v = this.forces;
         this.forces = new Vector2D(0, 0);
     }
     // public double getMass() {

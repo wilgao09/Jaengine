@@ -1,0 +1,60 @@
+[10:17:11]		Processing message: 1100 600.0 600.0
+[10:17:11]		Mailing 1100 600.0 600.0 to jaengine.modules.physics.Physics@2c468ba2
+[10:17:11]		Mailing 1100 600.0 600.0 to jaengine.modules.input.Input@2281605a
+[10:17:11]		Mailing 1100 600.0 600.0 to jaengine.modules.graphics.Graphics@6b07d489
+[10:17:11]		Processed!
+[10:17:11]		Processing message: 101 javafx.scene.Scene@26bee0d2
+[10:17:11]		Mailing 101 javafx.scene.Scene@26bee0d2 to jaengine.modules.physics.Physics@2c468ba2
+[10:17:11]		Mailing 101 javafx.scene.Scene@26bee0d2 to jaengine.modules.input.Input@2281605a
+[10:17:11]		Mailing 101 javafx.scene.Scene@26bee0d2 to jaengine.modules.graphics.Graphics@6b07d489
+[10:17:11]		Processed!
+[10:17:12]		Processing message: 1501 left_flier [D@63bc6a61
+[10:17:12]		Mailing 1501 left_flier [D@63bc6a61 to jaengine.modules.physics.Physics@2c468ba2
+[10:17:12]		Mailing 1501 left_flier [D@63bc6a61 to jaengine.modules.input.Input@2281605a
+[10:17:12]		Mailing 1501 left_flier [D@63bc6a61 to jaengine.modules.graphics.Graphics@6b07d489
+[10:17:12]		Processed!
+[10:17:12]		Processing message: 1501 right_flier [D@7b3fe62f
+[10:17:12]		Mailing 1501 right_flier [D@7b3fe62f to jaengine.modules.physics.Physics@2c468ba2
+[10:17:12]		Mailing 1501 right_flier [D@7b3fe62f to jaengine.modules.input.Input@2281605a
+[10:17:12]		Mailing 1501 right_flier [D@7b3fe62f to jaengine.modules.graphics.Graphics@6b07d489
+[10:17:12]		Processed!
+[10:17:12]		Processing message: 1503 left_flier 100.0i + 100.0j
+[10:17:12]		Mailing 1503 left_flier 100.0i + 100.0j to jaengine.modules.physics.Physics@2c468ba2
+[10:17:12]		Mailing 1503 left_flier 100.0i + 100.0j to jaengine.modules.input.Input@2281605a
+[10:17:12]		Mailing 1503 left_flier 100.0i + 100.0j to jaengine.modules.graphics.Graphics@6b07d489
+[10:17:12]		Processed!
+[10:17:12]		Processing message: 1503 right_flier 500.0i + 100.0j
+[10:17:12]		Mailing 1503 right_flier 500.0i + 100.0j to jaengine.modules.physics.Physics@2c468ba2
+[10:17:12]		Mailing 1503 right_flier 500.0i + 100.0j to jaengine.modules.input.Input@2281605a
+[10:17:12]		Mailing 1503 right_flier 500.0i + 100.0j to jaengine.modules.graphics.Graphics@6b07d489
+[10:17:12]		Processed!
+[10:17:12]		Processing message: 503 0.0 0.0 6
+[10:17:12]		Mailing 503 0.0 0.0 6 to jaengine.modules.physics.Physics@2c468ba2
+[10:17:12]		Mailing 503 0.0 0.0 6 to jaengine.modules.input.Input@2281605a
+[10:17:12]		Mailing 503 0.0 0.0 6 to jaengine.modules.graphics.Graphics@6b07d489
+[10:17:12]		Processed!
+[10:17:12]		Processing message: 503 0.0 0.0 6
+[10:17:12]		Mailing 503 0.0 0.0 6 to jaengine.modules.physics.Physics@2c468ba2
+[10:17:12]		Mailing 503 0.0 0.0 6 to jaengine.modules.input.Input@2281605a
+[10:17:12]		Mailing 503 0.0 0.0 6 to jaengine.modules.graphics.Graphics@6b07d489
+[10:17:12]		Processed!
+[10:17:12]		Processing message: 502 left_flier 2.0i + 0.025j 0.0i + 0.0j
+[10:17:12]		Mailing 502 left_flier 2.0i + 0.025j 0.0i + 0.0j to jaengine.modules.physics.Physics@2c468ba2
+[10:17:12]		Mailing 502 left_flier 2.0i + 0.025j 0.0i + 0.0j to jaengine.modules.input.Input@2281605a
+[10:17:12]		Mailing 502 left_flier 2.0i + 0.025j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@6b07d489
+[10:17:12]		Processed!
+[10:17:12]		Processing message: 502 right_flier -2.0i + 0.025j 0.0i + 0.0j
+[10:17:12]		Mailing 502 right_flier -2.0i + 0.025j 0.0i + 0.0j to jaengine.modules.physics.Physics@2c468ba2
+[10:17:12]		Mailing 502 right_flier -2.0i + 0.025j 0.0i + 0.0j to jaengine.modules.input.Input@2281605a
+[10:17:12]		Mailing 502 right_flier -2.0i + 0.025j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@6b07d489
+[10:17:12]		Processed!
+[10:17:12]		Processing message: 502 left_flier 100.0i + 100.0j 0.0i + 0.0j
+[10:17:12]		Mailing 502 left_flier 100.0i + 100.0j 0.0i + 0.0j to jaengine.modules.physics.Physics@2c468ba2
+[10:17:12]		Mailing 502 left_flier 100.0i + 100.0j 0.0i + 0.0j to jaengine.modules.input.Input@2281605a
+[10:17:12]		Mailing 502 left_flier 100.0i + 100.0j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@6b07d489
+[10:17:12]		Processed!
+[10:17:12]		Processing message: 502 right_flier 500.0i + 100.0j 0.0i + 0.0j
+[10:17:12]		Mailing 502 right_flier 500.0i + 100.0j 0.0i + 0.0j to jaengine.modules.physics.Physics@2c468ba2
+[10:17:12]		Mailing 502 right_flier 500.0i + 100.0j 0.0i + 0.0j to jaengine.modules.input.Input@2281605a
+[10:17:12]		Mailing 502 right_flier 500.0i + 100.0j 0.0i + 0.0j to jaengine.modules.graphics.Graphics@6b07d489
+[10:17:12]		Processed!

@@ -1,0 +1,10 @@
+[15:22:31]		Processing message: 1100 600.0 600.0
+[15:22:31]		Mailing 1100 600.0 600.0 to jaengine.modules.physics.Physics@4f0e51ea
+[15:22:31]		Mailing 1100 600.0 600.0 to jaengine.modules.input.Input@41c9b67b
+[15:22:31]		Mailing 1100 600.0 600.0 to jaengine.modules.graphics.Graphics@54d73b7f
+[15:22:31]		Processed!
+[15:22:31]		Processing message: 101 javafx.scene.Scene@45f63a9a
+[15:22:31]		Mailing 101 javafx.scene.Scene@45f63a9a to jaengine.modules.physics.Physics@4f0e51ea
+[15:22:31]		Mailing 101 javafx.scene.Scene@45f63a9a to jaengine.modules.input.Input@41c9b67b
+[15:22:31]		Mailing 101 javafx.scene.Scene@45f63a9a to jaengine.modules.graphics.Graphics@54d73b7f
+[15:22:31]		Processed!

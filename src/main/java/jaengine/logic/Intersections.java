@@ -58,7 +58,7 @@ public class Intersections {
                 Vector2D point = areIntersecting(starta,enda, startb, endb);
                 // System.out.println(point);
                 if (point != null) {
-                    crit.add(point);
+                    crit = crit.add(point);
                     additions++;
                     if (s1suspects.containsKey(s1)) {
                         s1suspects.put(s1,s1suspects.get(s1)+1);
@@ -83,10 +83,10 @@ public class Intersections {
 
     public static void main(String[] args){
         Vector2D aI = areIntersecting(
-            new Vector2D(1,1), 
-            new Vector2D(-1,-1), 
-            new Vector2D(0,-1), 
-            new Vector2D(-1,0));
+            new Vector2D(670,-900), 
+            new Vector2D(-888,70), 
+            new Vector2D(-244,-988), 
+            new Vector2D(1007,899));
         System.out.println(aI);
     }
 }
